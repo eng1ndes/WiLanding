@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "Contact Us | Whiteintel",
+    "description": "Get in touch with the Whiteintel team. Contact us for enterprise inquiries, partnerships, or to schedule a demo of our threat intelligence platform."
+  },
+  "heading": "Let's secure your",
+  "headingHighlight": "digital footprint.",
+  "description1": "Whiteintel operates as a dark web search engine to detect information stealer infections, compromised credentials, and exposed corporate assets.",
+  "description2": "Whether you're an enterprise, MSSP, researcher, or member of the media, we'd love to connect and explore how Whiteintel can support your work.",
+  "emailUs": "Email Us",
+  "emailUsDesc": "For general inquiries and support.",
+  "followUpdates": "Follow Updates",
+  "followUpdatesDesc": "Latest insights and threat research.",
+  "headquarters": "Headquarters",
+  "registeredEntity": "Registered Entity",
+  "locationCity": "Ankara, Turkey",
+  "form": {
+    "getInTouch": "Get in Touch",
+    "formSubtitle": "Fill out the form below and our team will get back to you shortly.",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "company": "Company",
+    "email": "Email",
+    "message": "Message",
+    "messagePlaceholder": "How can we help you?",
+    "sendMessage": "Send Message",
+    "errorGeneric": "Something went wrong. Please try again or email us.",
+    "captchaFailed": "Captcha verification failed. Please complete the verification below and try again.",
+    "successTitle": "Message Sent!",
+    "successMessage": "Thank you for reaching out. Our team will review your message and get back to you within 24 hours.",
+    "successButton": "Close"
+  }
+}

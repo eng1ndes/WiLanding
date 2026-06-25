@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "title": "Les donnees volees finissent sur le dark web.",
+    "titleSuffix": "Trouvez les votres avant les attaquants.",
+    "description": "Whiteintel est la plateforme de reference pour la protection des identites. Nous surveillons les canaux Telegram, les forums du dark web et les journaux de stealers en temps reel pour neutraliser les comptes voles.",
+    "tagline": "Decouvrez ce que le dark web sait deja sur votre organisation.",
+    "searchHint": "Domaine ou e-mail professionnel · resultats en quelques secondes · sans inscription",
+    "g2Note": "Base sur les avis G2",
+    "storyProblemTitle": "Les identifiants voles sont la porte d'entree",
+    "storyProblemBody": "Les malwares infostealers recoltent discretement les identifiants de vos employes et clients, qui apparaissent en quelques heures sur les forums de hackers et Telegram. La plupart des equipes ne le voient jamais.",
+    "storySolutionTitle": "De la detection au demantelement",
+    "storySolutionBody": "Whiteintel surveille en temps reel les forums de hackers, les places de marche du dark web, les canaux Telegram et les journaux de stealers, et fait remonter les mentions de votre marque et les identifiants divulgues des leur apparition. Reinitialisez les comptes, revoquez les sessions et demantelez les infrastructures d'usurpation avant que l'acces vole ne devienne une compromission.",
+    "cta": "Commencer gratuitement",
+    "dashboardLabel": "Tableau de bord Whiteintel",
+    "liveAlert": "Alerte en direct"
+  },
+  "threats": {
+    "darkWebMention": "Mention sur le dark web",
+    "corporateLeak": "Fuite d'entreprise",
+    "githubSecret": "Secret GitHub",
+    "phishingDomain": "Domaine de phishing",
+    "stealerInfection": "Infection par stealer",
+    "repositoryScan": "Analyse de depot",
+    "lookalikeAlert": "Alerte domaine similaire",
+    "detail1_darkweb": "Cible : 'Whiteintel' repere sur le forum XSS",
+    "detail1_corporate": "admin@yourcompany.com | Pwd: 123****",
+    "detail1_github": "AWS_KEY expose dans /dev",
+    "detail1_domain": "white-intel.support [Actif]",
+    "detail2_darkweb": "Base de donnees : 'Whiteintel.io' repere sur le forum Exploit",
+    "detail2_corporate": "security-lead@enterprise.org | Pwd: 123****",
+    "detail2_github": "id_rsa trouve dans un depot public",
+    "detail2_domain": "wh1teintel-login.com"
+  },
+  "search": {
+    "title": "Verifiez votre exposition au dark web",
+    "subtitle": "Entrez un domaine ou un e-mail pour detecter vos fuites en quelques secondes",
+    "placeholder": "ex: votreentreprise.com ou jean@acme.com",
+    "button": "OBTENIR LE RAPPORT GRATUIT",
+    "loading": "GENERATION DU RAPPORT...",
+    "errorDomain": "Veuillez entrer un domaine ou un e-mail.",
+    "errorCaptcha": "Veuillez d'abord completer le captcha.",
+    "errorTitle": "Impossible de traiter votre demande"
+  },
+  "features": {
+    "badge": "Visibilite tactique",
+    "title": "Tous les canaux d'exposition.",
+    "titleHighlight": "Un seul endroit pour les voir.",
+    "description": "Huit modules de detection couvrent tout, des identifiants voles aux domaines frauduleux en passant par le code expose. Chaque alerte relie la decouverte a l'actif concerne, pour que votre equipe agisse sur du signal, pas du bruit.",
+    "platformTour": "Visite de la plateforme",
+    "platformLabel": "Plateforme Whiteintel",
+    "items": [
+      { "title": "Surveillance des fuites d'identifiants", "description": "Suivi en temps reel des identifiants en clair partages sur les forums de hackers et les journaux prives." },
+      { "title": "Intelligence infostealer", "description": "Extraction directe depuis les serveurs C2, identifiant les appareils infectes et l'exposition organisationnelle." },
+      { "title": "Surveillance des mentions dark web", "description": "Analyse automatisee des sites onion, places de marche et canaux Telegram pour les mentions de marque." },
+      { "title": "Detection de domaines similaires", "description": "Alertes proactives sur le typosquatting et les infrastructures malveillantes ciblant votre marque." },
+      { "title": "Analyse des secrets GitHub", "description": "Identification des cles API exposees, jetons prives et extraits de code interne dans les depots publics." },
+      { "title": "Actualites continues sur les menaces", "description": "Intelligence agregee et resumee par AI provenant de forums clandestins et de flux de securite publics." },
+      { "title": "Securite des fournisseurs", "description": "Surveillance continue de l'exposition de vos fournisseurs avec un score de risque supply chain de 0 a 100 par fournisseur." },
+      { "title": "Intelligence fraude aux paiements", "description": "Surveillance en temps reel des cartes volees et des BIN via l'index Whiteintel des cartes exposees." }
+    ]
+  },
+  "howItWorks": {
+    "badge": "Le cycle de vie du renseignement",
+    "title": "Comment fonctionne",
+    "titleHighlight": "Whiteintel",
+    "description": "Nous ingérons et analysons en continu des millions de points de donnees brutes du dark web, filtrant le bruit pour fournir un pipeline de renseignement haute fidelite.",
+    "startForFree": "Commencer gratuitement",
+    "contactUs": "Nous contacter",
+    "steps": [
+      { "title": "Detecter", "description": "Renseignement dark web collecte par les capteurs Whiteintel a travers Telegram, les forums de hackers, les ressources du dark web et les journaux de stealers." },
+      { "title": "Prioriser", "description": "Notre moteur AI correle les donnees massives et genere du renseignement sur les menaces exploitable et recherchable." },
+      { "title": "Remedier", "description": "Neutralisez les comptes voles via des declencheurs API automatises avant que tout acces non autorise ne se produise." }
+    ]
+  },
+  "teams": {
+    "badge": "Partenaire strategique",
+    "title": "Renforcer les operations de",
+    "titleHighlight": "cybersecurite mondiales",
+    "description": "Whiteintel s'integre parfaitement dans les ecosystemes de securite professionnels, fournissant la precision requise pour les decisions critiques.",
+    "platformOverview": "Apercu de la plateforme",
+    "items": [
+      { "title": "Equipes SOC", "description": "Accelerez la reponse aux incidents grace au renseignement haute fidelite sur les fuites d'identifiants et a la detection de compromission en temps reel." },
+      { "title": "MSSP", "description": "Developpez les services de securite geres a travers les portefeuilles clients mondiaux avec du renseignement dark web unifie et des flux de travail pilotes par API." },
+      { "title": "Red Teams", "description": "Reconnaissance de precision via les secrets exposes et les domaines imitant la marque pour des simulations adverses a fort impact." },
+      { "title": "Chercheurs en securite", "description": "Decouvrez des vulnerabilites a fort impact et des secrets exposes pour renforcer la reconnaissance et l'analyse complexe de la surface d'attaque." }
+    ]
+  },
+  "benefits": {
+    "badge": "Excellence operationnelle",
+    "title": "Concu pour la",
+    "titleHighlight": "protection strategique des risques",
+    "description": "Whiteintel transforme la telemetrie brute du dark web en renseignement haute fidelite, permettant aux equipes de securite de securiser de maniere preventive les identites compromises a grande echelle.",
+    "items": [
+      { "title": "Visibilite totale du dark web", "description": "Detection instantanee des fuites d'identifiants, mentions sur le dark web et infrastructures imitant la marque." },
+      { "title": "Moteur de renseignement proprietaire", "description": "Exploitation de l'un des plus grands ensembles de donnees d'infostealers au monde pour une detection et neutralisation des menaces en moins d'une minute." },
+      { "title": "Enrichissement forensique des donnees", "description": "Metadonnees approfondies incluant les identifiants materiels, les applications affectees et les identifiants exposes." },
+      { "title": "Renseignement haute fidelite", "description": "Flux de donnees structures sans bruit, curates par AI pour un triage immediat de la reponse aux incidents." },
+      { "title": "API de niveau entreprise", "description": "Architecture RESTful a haut debit concue pour une ingestion et un partage de donnees a grande echelle." },
+      { "title": "Renseignement a la demande", "description": "Acces direct aux analystes de securite Tier-3 et aux experts du dark web." },
+      { "title": "TCO transparent", "description": "Modeles de tarification previsibles a l'echelle de l'entreprise concus pour une gestion durable du budget securite." },
+      { "title": "Synchronisation native de l'ecosysteme", "description": "Orchestration automatisee des flux de travail avec integrations natives Jira, Slack et Webhook d'entreprise." }
+    ]
+  },
+  "testimonials": {
+    "title": "Ne nous croyez pas sur parole",
+    "description": "Avis verifies de CISO, responsables SOC et equipes de securite operationnelles utilisant Whiteintel en production.",
+    "verified": "Verifie",
+    "verifiedReviewer": "Evaluateur G2 verifie",
+    "readMore": "Lire les avis sur G2"
+  },
+  "trustedBy": "Approuve par les equipes de securite des",
+  "trustedByHighlight": "leaders du secteur",
+  "trustedByBadge": "Partenaires de confiance",
+  "stats": {
+    "badge": "En chiffres",
+    "title": "L'intelligence",
+    "titleHighlight": "derriere chaque alerte",
+    "description": "Collecte continue sur toutes les sources clandestines. Chiffres en direct, mis a jour quotidiennement.",
+    "stealerLogs": "Logs de stealer indexes",
+    "uniqueCredentials": "Identifiants uniques suivis",
+    "threatActors": "Acteurs de menace surveilles",
+    "darkWebEvents": "Evenements dark web enregistres"
+  }
+}

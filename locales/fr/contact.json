@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "Contactez-nous | Whiteintel",
+    "description": "Prenez contact avec l'equipe Whiteintel. Contactez-nous pour les demandes entreprise, les partenariats ou pour planifier une demonstration de notre plateforme de renseignement sur les menaces."
+  },
+  "heading": "Securisons votre",
+  "headingHighlight": "empreinte numerique.",
+  "description1": "Whiteintel fonctionne comme un moteur de recherche du dark web pour detecter les infections par stealers, les identifiants compromis et les actifs d'entreprise exposes.",
+  "description2": "Que vous soyez une entreprise, un MSSP, un chercheur ou un membre des medias, nous serions ravis d'echanger et d'explorer comment Whiteintel peut soutenir votre activite.",
+  "emailUs": "Ecrivez-nous",
+  "emailUsDesc": "Pour les demandes generales et le support.",
+  "followUpdates": "Suivez les actualites",
+  "followUpdatesDesc": "Dernieres analyses et recherches sur les menaces.",
+  "headquarters": "Siege social",
+  "registeredEntity": "Entite enregistree",
+  "locationCity": "Ankara, Turquie",
+  "form": {
+    "getInTouch": "Contactez-nous",
+    "formSubtitle": "Remplissez le formulaire ci-dessous et notre equipe vous repondra dans les plus brefs delais.",
+    "firstName": "Prenom",
+    "lastName": "Nom",
+    "company": "Entreprise",
+    "email": "E-mail",
+    "message": "Message",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "sendMessage": "Envoyer le message",
+    "errorGeneric": "Une erreur s'est produite. Veuillez reessayer ou nous envoyer un e-mail.",
+    "captchaFailed": "La verification du captcha a echoue. Veuillez completer la verification ci-dessous et reessayer.",
+    "successTitle": "Message envoye !",
+    "successMessage": "Merci de nous avoir contactes. Notre equipe examinera votre message et vous repondra sous 24 heures.",
+    "successButton": "Fermer"
+  }
+}

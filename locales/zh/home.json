@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "title": "被盗数据不断流入暗网。",
+    "titleSuffix": "抢在攻击者之前找到。",
+    "description": "Whiteintel 是身份保护的权威平台。我们实时追踪 Telegram 频道、暗网论坛和窃密日志，以消除被盗账户威胁。",
+    "tagline": "了解暗网上已经流传着您组织的哪些信息。",
+    "searchHint": "域名或工作邮箱 · 数秒出结果 · 无需注册",
+    "g2Note": "基于 G2 用户评价",
+    "storyProblemTitle": "被盗凭证是攻击的入口",
+    "storyProblemBody": "窃密木马悄无声息地窃取员工和客户的登录凭证，数小时内便会出现在黑客论坛和 Telegram 上。大多数团队对此毫无察觉。",
+    "storySolutionTitle": "从检测到清除",
+    "storySolutionBody": "Whiteintel 实时监控黑客论坛、暗网市场、Telegram 频道和窃密日志，在品牌提及和泄露凭证出现的第一时间予以呈现。在被盗访问演变为安全事件之前，重置账户、撤销会话并清除仿冒基础设施。",
+    "cta": "免费开始",
+    "dashboardLabel": "Whiteintel 仪表盘",
+    "liveAlert": "实时告警"
+  },
+  "threats": {
+    "darkWebMention": "暗网提及",
+    "corporateLeak": "企业泄露",
+    "githubSecret": "GitHub 密钥泄露",
+    "phishingDomain": "钓鱼域名",
+    "stealerInfection": "窃密木马感染",
+    "repositoryScan": "代码仓库扫描",
+    "lookalikeAlert": "仿冒域名告警",
+    "detail1_darkweb": "目标：在 XSS 论坛上发现 'Whiteintel' 相关提及",
+    "detail1_corporate": "admin@yourcompany.com | Pwd: 123****",
+    "detail1_github": "AWS_KEY 在 /dev 中暴露",
+    "detail1_domain": "white-intel.support [活跃]",
+    "detail2_darkweb": "数据库：在 Exploit 论坛上发现 'Whiteintel.io' 相关提及",
+    "detail2_corporate": "security-lead@enterprise.org | Pwd: 123****",
+    "detail2_github": "在公开仓库中发现 id_rsa",
+    "detail2_domain": "wh1teintel-login.com"
+  },
+  "search": {
+    "title": "检查您的暗网暴露情况",
+    "subtitle": "输入域名或电子邮件，几秒内检测您的泄露风险",
+    "placeholder": "例如: yourcompany.com 或 john@acme.com",
+    "button": "获取免费报告",
+    "loading": "正在生成报告...",
+    "errorDomain": "请输入域名或电子邮件。",
+    "errorCaptcha": "请先完成验证码。",
+    "errorTitle": "无法完成您的请求"
+  },
+  "features": {
+    "badge": "战术级可视化",
+    "title": "覆盖每一个暴露渠道。",
+    "titleHighlight": "在一个平台尽收眼底。",
+    "description": "八大检测模块全面覆盖，从被盗凭证到欺诈域名再到暴露代码。每条告警都将发现与受影响的资产关联，让团队聚焦真正的信号，而非噪音。",
+    "platformTour": "平台导览",
+    "platformLabel": "Whiteintel 平台",
+    "items": [
+      { "title": "凭证泄露监控", "description": "实时追踪黑客论坛分享和私密日志中的明文凭证。" },
+      { "title": "信息窃取情报", "description": "直接从 C2 服务器提取数据，精准定位受感染设备和组织暴露面。" },
+      { "title": "暗网提及监控", "description": "自动扫描洋葱网站、地下市场和 Telegram 频道中的品牌提及。" },
+      { "title": "仿冒域名检测", "description": "针对域名抢注和以您品牌为目标的恶意基础设施进行主动告警。" },
+      { "title": "GitHub 密钥扫描", "description": "识别公开仓库中暴露的 API 密钥、私有令牌和内部代码片段。" },
+      { "title": "持续威胁资讯", "description": "汇聚来自地下论坛和公开安全信息源的 AI 摘要情报。" },
+      { "title": "供应商安全", "description": "持续监控您的供应商暴露情况，为每个供应商提供 0-100 的供应链风险评分。" },
+      { "title": "支付欺诈情报", "description": "基于 Whiteintel 泄露卡片索引，实时监控被盗卡片和 BIN。" }
+    ]
+  },
+  "howItWorks": {
+    "badge": "情报生命周期",
+    "title": "Whiteintel",
+    "titleHighlight": "工作原理",
+    "description": "我们持续采集和分析来自暗网的数百万原始数据点，过滤噪音，提供高保真情报管道。",
+    "startForFree": "免费开始",
+    "contactUs": "联系我们",
+    "steps": [
+      { "title": "检测", "description": "Whiteintel 传感器从 Telegram、黑客论坛、暗网资源和窃密日志中收集暗网情报。" },
+      { "title": "优先排序", "description": "我们的 AI 引擎关联大数据，生成可搜索、可操作的威胁情报。" },
+      { "title": "修复", "description": "在未经授权的访问发生之前，通过自动化 API 触发器消除被盗账户。" }
+    ]
+  },
+  "teams": {
+    "badge": "战略合作伙伴",
+    "title": "赋能全球",
+    "titleHighlight": "网络安全运营",
+    "description": "Whiteintel 无缝集成到专业安全生态系统中，提供关键任务决策所需的精准度。",
+    "platformOverview": "平台概览",
+    "items": [
+      { "title": "SOC 团队", "description": "通过高保真凭证泄露情报和实时入侵检测加速事件响应。" },
+      { "title": "MSSP", "description": "通过统一的暗网情报和 API 驱动的工作流，跨全球客户组合扩展托管安全服务。" },
+      { "title": "红队", "description": "利用暴露的密钥和品牌仿冒域名进行精准侦察，实施高影响力对抗模拟。" },
+      { "title": "安全研究员", "description": "发现高影响力漏洞和暴露的密钥，强化侦察和复杂攻击面分析。" }
+    ]
+  },
+  "benefits": {
+    "badge": "卓越运营",
+    "title": "专为",
+    "titleHighlight": "战略风险防护而设计",
+    "description": "Whiteintel 将原始暗网遥测数据转化为高保真情报，使安全团队能够大规模地预防性保护被泄露的身份。",
+    "items": [
+      { "title": "暗网全面可视化", "description": "即时检测凭证泄露、暗网提及和品牌仿冒基础设施。" },
+      { "title": "专有情报引擎", "description": "利用全球最大的信息窃取数据集之一，实现亚分钟级检测和威胁消除。" },
+      { "title": "取证数据富化", "description": "包括硬件标识符、受影响应用程序和暴露凭证在内的深层元数据。" },
+      { "title": "高保真情报", "description": "由 AI 精选的零噪音结构化数据流，用于即时事件响应分诊。" },
+      { "title": "企业级 API", "description": "高吞吐量 RESTful 架构，专为大规模数据采集和共享而无缝设计。" },
+      { "title": "按需情报", "description": "直接访问 Tier-3 安全分析师和暗网领域专家。" },
+      { "title": "透明 TCO", "description": "可预测的企业级定价模型，专为可持续安全预算管理而设计。" },
+      { "title": "原生生态系统同步", "description": "通过原生 Jira、Slack 和企业 Webhook 集成实现自动化工作流编排。" }
+    ]
+  },
+  "testimonials": {
+    "title": "无需空口承诺",
+    "description": "来自在生产环境中使用 Whiteintel 的 CISO、SOC 经理和安全运营团队的认证评论。",
+    "verified": "已认证",
+    "verifiedReviewer": "G2 认证评论者",
+    "readMore": "在 G2 上阅读评论"
+  },
+  "trustedBy": "受到安全团队的信赖",
+  "trustedByHighlight": "行业领先企业",
+  "trustedByBadge": "可信赖的合作伙伴",
+  "stats": {
+    "badge": "数据一览",
+    "title": "每一次警报背后",
+    "titleHighlight": "的情报支撑",
+    "description": "持续覆盖所有地下渠道的实时情报采集,数据每日更新。",
+    "stealerLogs": "已索引窃密日志",
+    "uniqueCredentials": "唯一凭据追踪",
+    "threatActors": "受监控的威胁行为者",
+    "darkWebEvents": "记录的暗网事件"
+  }
+}

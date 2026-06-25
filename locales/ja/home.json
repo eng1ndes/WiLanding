@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "title": "盗まれたデータはダークウェブに流出しています。",
+    "titleSuffix": "攻撃者より先に発見を。",
+    "description": "Whiteintelはアイデンティティ保護のための決定版プラットフォームです。Telegramチャンネル、ダークウェブフォーラム、スティーラーログをリアルタイムで追跡し、盗まれたアカウントを無力化します。",
+    "tagline": "ダークウェブに流出している組織の情報を今すぐ確認。",
+    "searchHint": "ドメインまたは業務用メール · 数秒で結果表示 · 登録不要",
+    "g2Note": "G2のレビューに基づく評価",
+    "storyProblemTitle": "盗まれた認証情報が攻撃の入口になる",
+    "storyProblemBody": "インフォスティーラーは従業員や顧客のログイン情報を密かに収集し、数時間以内にハッカーフォーラムやTelegramに出回ります。多くのチームはそれに気づくことすらできません。",
+    "storySolutionTitle": "検知からテイクダウンまで",
+    "storySolutionBody": "Whiteintelはハッカーフォーラム、ダークウェブマーケットプレイス、Telegramチャンネル、スティーラーログをリアルタイムで監視し、ブランドへの言及や流出した認証情報を出現と同時に検出します。盗まれたアクセスが侵害に発展する前に、アカウントのリセット、セッションの失効、なりすましインフラのテイクダウンを実行できます。",
+    "cta": "無料で始める",
+    "dashboardLabel": "Whiteintelダッシュボード",
+    "liveAlert": "ライブアラート"
+  },
+  "threats": {
+    "darkWebMention": "ダークウェブ言及",
+    "corporateLeak": "企業情報漏洩",
+    "githubSecret": "GitHubシークレット",
+    "phishingDomain": "フィッシングドメイン",
+    "stealerInfection": "スティーラー感染",
+    "repositoryScan": "リポジトリスキャン",
+    "lookalikeAlert": "類似ドメインアラート",
+    "detail1_darkweb": "ターゲット: 'Whiteintel' がXSSフォーラムで確認",
+    "detail1_corporate": "admin@yourcompany.com | Pwd: 123****",
+    "detail1_github": "AWS_KEYが/devで公開",
+    "detail1_domain": "white-intel.support [アクティブ]",
+    "detail2_darkweb": "データベース: 'Whiteintel.io' がExploitフォーラムで確認",
+    "detail2_corporate": "security-lead@enterprise.org | Pwd: 123****",
+    "detail2_github": "公開リポジトリでid_rsaを発見",
+    "detail2_domain": "wh1teintel-login.com"
+  },
+  "search": {
+    "title": "ダークウェブの露出をチェック",
+    "subtitle": "ドメインまたはメールアドレスを入力して、漏洩状況を数秒で検出",
+    "placeholder": "例: yourcompany.com または john@acme.com",
+    "button": "無料レポートを取得",
+    "loading": "レポート生成中...",
+    "errorDomain": "ドメインまたはメールアドレスを入力してください。",
+    "errorCaptcha": "まずキャプチャを完了してください。",
+    "errorTitle": "リクエストを完了できませんでした"
+  },
+  "features": {
+    "badge": "戦術的可視性",
+    "title": "あらゆる露出チャネルを。",
+    "titleHighlight": "ひとつの場所で把握。",
+    "description": "8つの検出モジュールが、盗まれた認証情報から不正ドメイン、露出したコードまでを網羅。すべてのアラートは影響を受ける資産に紐づくため、チームはノイズではなくシグナルに基づいて行動できます。",
+    "platformTour": "プラットフォームツアー",
+    "platformLabel": "Whiteintelプラットフォーム",
+    "items": [
+      { "title": "認証情報漏洩監視", "description": "ハッカーフォーラムの共有やプライベートログにおける平文認証情報のリアルタイム追跡。" },
+      { "title": "インフォスティーラーインテリジェンス", "description": "C2サーバーからの直接抽出により、感染デバイスと組織の露出を特定。" },
+      { "title": "ダークウェブ言及監視", "description": "オニオンサイト、マーケットプレイス、Telegramチャンネルにおけるブランド言及の自動スキャン。" },
+      { "title": "類似ドメイン検出", "description": "タイポスクワッティングやブランドを標的とする悪意あるインフラに対するプロアクティブなアラート。" },
+      { "title": "GitHubシークレットスキャン", "description": "公開リポジトリにおける露出したAPIキー、プライベートトークン、内部コードスニペットの特定。" },
+      { "title": "継続的脅威ニュース", "description": "アンダーグラウンドフォーラムや公開セキュリティフィードからのAI要約インテリジェンスの集約。" },
+      { "title": "サプライヤーセキュリティ", "description": "ベンダーの露出を継続的に監視し、サプライヤーごとに0-100のサプライチェーンリスクスコアを提供。" },
+      { "title": "決済不正インテリジェンス", "description": "Whiteintelの流出カードインデックスに対して、盗難カードとBINをリアルタイムで監視。" }
+    ]
+  },
+  "howItWorks": {
+    "badge": "インテリジェンスライフサイクル",
+    "title": "Whiteintelの",
+    "titleHighlight": "仕組み",
+    "description": "ダークウェブから数百万の生データポイントを継続的に取り込み分析し、ノイズを除去して高精度なインテリジェンスパイプラインを提供します。",
+    "startForFree": "無料で始める",
+    "contactUs": "お問い合わせ",
+    "steps": [
+      { "title": "検出", "description": "Whiteintelセンサーが Telegram、ハッカーフォーラム、ダークウェブリソース、スティーラーログからダークウェブインテリジェンスを収集。" },
+      { "title": "優先順位付け", "description": "AIエンジンがビッグデータを相関分析し、検索可能でアクション可能な脅威インテリジェンスを生成。" },
+      { "title": "修復", "description": "不正アクセスが発生する前に、自動化されたAPIトリガーにより盗まれたアカウントを無力化。" }
+    ]
+  },
+  "teams": {
+    "badge": "戦略的パートナー",
+    "title": "グローバルな",
+    "titleHighlight": "サイバーセキュリティ運用を強化",
+    "description": "Whiteintelはプロフェッショナルなセキュリティエコシステムにシームレスに統合され、ミッションクリティカルな意思決定に必要な精度を提供します。",
+    "platformOverview": "プラットフォーム概要",
+    "items": [
+      { "title": "SOCチーム", "description": "高精度な認証情報漏洩インテリジェンスとリアルタイムの侵害検出により、インシデント対応を加速。" },
+      { "title": "MSSP", "description": "統合されたダークウェブインテリジェンスとAPI駆動のワークフローにより、グローバルなクライアントポートフォリオ全体でマネージドセキュリティサービスを拡張。" },
+      { "title": "レッドチーム", "description": "露出したシークレットやブランド模倣ドメインを活用した精密な偵察による、高インパクトな敵対シミュレーション。" },
+      { "title": "セキュリティリサーチャー", "description": "高インパクトな脆弱性と露出したシークレットを発見し、偵察と複雑な攻撃面分析を強化。" }
+    ]
+  },
+  "benefits": {
+    "badge": "オペレーショナルエクセレンス",
+    "title": "設計思想：",
+    "titleHighlight": "戦略的リスク保護",
+    "description": "Whiteintelは生のダークウェブテレメトリを高精度インテリジェンスに変換し、セキュリティチームが大規模に侵害されたアイデンティティを先制的に保護することを可能にします。",
+    "items": [
+      { "title": "ダークウェブ完全可視化", "description": "認証情報漏洩、ダークウェブ言及、ブランド模倣インフラの即時検出。" },
+      { "title": "独自インテルエンジン", "description": "世界最大級のインフォスティーラーデータセットを活用し、1分以内の検出と脅威無力化を実現。" },
+      { "title": "フォレンジックデータ拡充", "description": "ハードウェア識別子、影響を受けたアプリケーション、露出した認証情報を含むディープティアメタデータ。" },
+      { "title": "高精度インテリジェンス", "description": "AIが精選したノイズゼロの構造化データストリームにより、即座のインシデント対応トリアージを実現。" },
+      { "title": "エンタープライズグレードAPI", "description": "大規模データの取り込みと共有のためにシームレスに設計された高スループットRESTfulアーキテクチャ。" },
+      { "title": "オンデマンドインテリジェンス", "description": "Tier-3セキュリティアナリストとダークウェブ専門家への直接アクセス。" },
+      { "title": "透明なTCO", "description": "持続可能なセキュリティ予算管理のために設計された予測可能なエンタープライズスケールの価格モデル。" },
+      { "title": "ネイティブエコシステム連携", "description": "Jira、Slack、エンタープライズWebhook統合によるネイティブな自動ワークフローオーケストレーション。" }
+    ]
+  },
+  "testimonials": {
+    "title": "私たちの言葉だけを信じないでください",
+    "description": "実運用環境で Whiteintel を使用している CISO、SOC マネージャー、セキュリティ運用チームからの認証済みレビュー。",
+    "verified": "認証済み",
+    "verifiedReviewer": "G2 認証レビュアー",
+    "readMore": "G2 でレビューを読む"
+  },
+  "trustedBy": "セキュリティチームから信頼されています",
+  "trustedByHighlight": "業界をリードする企業の",
+  "trustedByBadge": "信頼されるパートナー",
+  "stats": {
+    "badge": "数字で見る",
+    "title": "すべてのアラートを支える",
+    "titleHighlight": "インテリジェンス",
+    "description": "あらゆるアンダーグラウンドソースからの継続的な収集。毎日更新されるリアルタイムの数値。",
+    "stealerLogs": "インデックス化されたスティーラーログ",
+    "uniqueCredentials": "追跡中のユニーククレデンシャル",
+    "threatActors": "監視中の脅威アクター",
+    "darkWebEvents": "記録されたダークウェブイベント"
+  }
+}

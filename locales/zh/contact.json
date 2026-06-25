@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "联系我们 | Whiteintel",
+    "description": "联系 Whiteintel 团队。就企业咨询、合作伙伴关系或预约威胁情报平台演示与我们取得联系。"
+  },
+  "heading": "让我们保护您的",
+  "headingHighlight": "数字足迹。",
+  "description1": "Whiteintel 作为暗网搜索引擎运行，用于检测信息窃取木马感染、泄露的凭证和暴露的企业资产。",
+  "description2": "无论您是企业、MSSP、研究人员还是媒体人士，我们都希望与您建立联系，探讨 Whiteintel 如何支持您的工作。",
+  "emailUs": "邮件联系",
+  "emailUsDesc": "用于一般咨询和支持。",
+  "followUpdates": "关注动态",
+  "followUpdatesDesc": "最新洞察与威胁研究。",
+  "headquarters": "总部",
+  "registeredEntity": "注册主体",
+  "locationCity": "土耳其安卡拉",
+  "form": {
+    "getInTouch": "联系我们",
+    "formSubtitle": "填写以下表单，我们的团队将尽快回复您。",
+    "firstName": "名",
+    "lastName": "姓",
+    "company": "公司",
+    "email": "邮箱",
+    "message": "留言",
+    "messagePlaceholder": "我们能为您提供什么帮助？",
+    "sendMessage": "发送消息",
+    "errorGeneric": "出了点问题。请重试或直接发送邮件联系我们。",
+    "captchaFailed": "验证码验证失败。请完成下方验证后重试。",
+    "successTitle": "消息已发送！",
+    "successMessage": "感谢您的来信。我们的团队将审核您的消息，并在 24 小时内回复您。",
+    "successButton": "关闭"
+  }
+}

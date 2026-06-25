@@ -1,0 +1,966 @@
+{
+  "ato": {
+    "badge": "Account Takeover Prevention",
+    "hero": {
+      "title": "Prevent Account Takeovers.",
+      "description": "Proactive dark-web monitoring for credential leaks. Detect exposed identities and automate response before attackers exploit them.",
+      "cardHeader": "Compromised Credential Detected",
+      "cardSubtext": "Real-time alert • Just now",
+      "autoRemediate": "Auto-Remediate",
+      "investigate": "Investigate"
+    },
+    "valueProps": {
+      "title": "Cut Off ATO",
+      "titleHighlight": "Before It Starts",
+      "description": "Whiteintel turns leaked credentials and stealer artifacts into prioritized actions, giving your security team the upper hand.",
+      "items": [
+        {
+          "title": "Stop Credential Abuse",
+          "description": "Detect exposed usernames and passwords tied to your domains before they are sold."
+        },
+        {
+          "title": "Find Infected Devices",
+          "description": "Identify stealer-infected endpoints linked to corporate accounts with precision."
+        },
+        {
+          "title": "Block ATO Paths",
+          "description": "Reduce password reuse and credential stuffing risks with automated threat mapping."
+        },
+        {
+          "title": "Act Fast with Alerts",
+          "description": "Receive real-time webhooks or email notifications to trigger instant resets and takedowns."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "The Workflow",
+      "title": "From Detection to Neutralization",
+      "description": "A purpose-built automated pipeline that turns raw dark-web signals into definitive security actions without human latency.",
+      "steps": [
+        {
+          "title": "Collect",
+          "description": "Ingesting stealer logs, hacker forums, Telegram channels, and paste sites continuously."
+        },
+        {
+          "title": "Enrich",
+          "description": "De-duplicating data and mapping identities to your specific domains and VIPs."
+        },
+        {
+          "title": "Correlate",
+          "description": "Linking credentials, and tokens to identify high-confidence exposure paths."
+        },
+        {
+          "title": "Alert",
+          "description": "Pushing real-time webhooks or emails immediately when high-risk exposures are validated."
+        },
+        {
+          "title": "Remediate",
+          "description": "Triggering automated resets, session revocations, and takedowns via API."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Capabilities",
+      "title": "Built to Stop Takeovers Before They Happen",
+      "description": "We ingest millions of logs from infostealers and dark web forums in real-time, giving you the intelligence to act before attackers strike.",
+      "items": [
+        {
+          "title": "Stop Account Compromise",
+          "description": "Detect stolen credentials linked to your domains and VIPs before they are used for unauthorized logins."
+        },
+        {
+          "title": "Uncover Breach Sources",
+          "description": "Trace exposed usernames and passwords back to specific stealer logs, dark web markets, and paste sites."
+        },
+        {
+          "title": "Identify Infected Devices",
+          "description": "Spot endpoints infected with infostealers that accessed corporate assets, including IP and device fingerprinting."
+        },
+        {
+          "title": "Automate ATO Response",
+          "description": "Trigger password resets, revoke sessions, and send webhooks to your SOAR playbooks instantly."
+        }
+      ]
+    },
+    "roi": {
+      "title": "Stop Losses",
+      "titleHighlight": "Before They Start",
+      "description": "Account Takeovers cost businesses billions in fraud, chargebacks, and brand recovery. Preventing just one incident pays for the platform.",
+      "badge": "The Cost of Inaction",
+      "stats": [
+        {
+          "value": "$4.88M",
+          "label": "Average Breach Cost",
+          "sub": "Global Average (2024)",
+          "description": "The rising cost of data breaches makes early detection a financial necessity, not just a security one."
+        },
+        {
+          "value": "88%",
+          "label": "Web App Breaches",
+          "description": "Attackers don't break in; they log in using valid credentials stolen from third parties."
+        },
+        {
+          "value": "22%",
+          "label": "Initial Access Vectors",
+          "description": "Stolen credentials remain the #1 reliable path for attackers to gain a foothold."
+        }
+      ]
+    }
+  },
+  "enterprise": {
+    "badge": "Enterprise Protection",
+    "hero": {
+      "title": "Enterprise-Grade Identity Protection.",
+      "description": "Safeguard employee identities and internal systems. We scan Telegram, Dark Web Forums, and Stealer Logs in real-time to surface leaked corporate credentials before they are exploited.",
+      "highlight": "Telegram, Dark Web Forums, and Stealer Logs"
+    },
+    "valueProps": {
+      "title": "Secure Identities.",
+      "titleHighlight": "Protect Systems.",
+      "description": "Turn external exposure signals into clear actions that safeguard employee access to corporate systems and infrastructure.",
+      "items": [
+        {
+          "title": "Protect Internal Access",
+          "description": "Detect exposed corporate credentials before they're used to enter AD/SSO, VPN, or internal apps."
+        },
+        {
+          "title": "Defend Privileged Accounts",
+          "description": "Find high-risk exposures tied to admins, service accounts, and execs; act fast to reduce blast radius."
+        },
+        {
+          "title": "Secure the Workforce",
+          "description": "Map leaks to employees and teams; notify, reset, and educate with minimal friction."
+        },
+        {
+          "title": "Reduce Lateral Movement",
+          "description": "Revoke sessions, reset passwords, and remove tokens to cut off attacker persistence."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "The Workflow",
+      "title": "How We Protect Employee Access",
+      "description": "From external signals to automated action—purpose-built to keep internal systems safe from takeover.",
+      "steps": [
+        {
+          "title": "Collect",
+          "description": "Ingesting logs from stealer clouds, forums, Telegram, and paste sites continuously."
+        },
+        {
+          "title": "Enrich",
+          "description": "Normalizing data and mapping identities to specific domains, users, and devices."
+        },
+        {
+          "title": "Correlate",
+          "description": "Linking credentials to employees to pinpoint high-risk access paths."
+        },
+        {
+          "title": "Alert",
+          "description": "Pushing validated alerts to security teams via Webhook or Email instantly."
+        },
+        {
+          "title": "Remediate",
+          "description": "Triggering password resets, session revocations, and takedowns via API."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Protect Employee Identities",
+      "title": "Keep Corporate Access Safe & Controlled",
+      "description": "Monitor leaks and stealer artifacts in real time. Map exposures to users and systems, then respond with resets and revocations that fit your workflows.",
+      "items": [
+        {
+          "title": "Prevent Internal Compromise",
+          "description": "Detect corporate credential leaks tied to your domains, AD/SSO users, and VPNs before they are abused."
+        },
+        {
+          "title": "Investigate Exposures",
+          "description": "Search by email, username, or IP to trace sources—stealer logs, forums, and paste sites."
+        },
+        {
+          "title": "Find Risky Endpoints",
+          "description": "Identify devices linked to corporate logins that show stealer exposure and isolate them quickly."
+        },
+        {
+          "title": "Automate Response",
+          "description": "Trigger password resets, revoke sessions, notify users, and send alerts into your workflows."
+        }
+      ]
+    }
+  },
+  "ad": {
+    "badge": "Use Case",
+    "hero": {
+      "title": "Protect AD Identities & Devices.",
+      "titleLine2": "From External Threats.",
+      "badge": "Active Directory Protection",
+      "description": "Detect compromised hostnames, IPs, and credentials in real-time. We correlate external leaks to your Active Directory users and endpoints to automate isolation workflows.",
+      "descriptionHighlight": "Active Directory",
+      "descriptionSuffix": "to automate isolation workflows.",
+      "highlight": "Active Directory",
+      "scannerStatus": "SCANNING EXTERNAL SOURCES...",
+      "domainController": "DC01",
+      "statusActive": "ACTIVE",
+      "statusSecure": "SECURE",
+      "statusOnline": "ONLINE",
+      "statusInfected": "INFECTED",
+      "statusIsolated": "ISOLATED",
+      "logMonitoring": "[SYS] Monitoring AD objects...",
+      "logAlert": "[ALERT] Credential match found: WS-FIN-04",
+      "logSync": "[SYS] Syncing with external feed...",
+      "logAction": "[ACTION] Isolating device..."
+    },
+    "valueProps": {
+      "title": "Make AD the",
+      "titleHighlight": "Hardest Door to Open.",
+      "description": "Whiteintel turns external signals into concrete actions that keep Active Directory identities and devices secure from external compromise.",
+      "items": [
+        {
+          "title": "Spot Compromised Hosts",
+          "description": "Identify exposed hostnames and IPs observed in stealer logs and breach artifacts, then map them back to AD devices."
+        },
+        {
+          "title": "Tie to Real Users",
+          "description": "Correlate devices and artifacts to specific AD users or groups for faster action."
+        },
+        {
+          "title": "Protect Internal Apps",
+          "description": "Surface risky endpoints used to reach VPN, SSO, and critical apps—reduce lateral movement."
+        },
+        {
+          "title": "Respond with Confidence",
+          "description": "Kick off password resets, token revocations, device isolation, and ticketing with webhook/email alerts."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "The Workflow",
+      "title": "How We Protect",
+      "titleHighlight": "Active Directory",
+      "description": "From identifying compromised hostnames to decisive response—automating the defense of your internal network.",
+      "steps": [
+        {
+          "phase": "Phase 1",
+          "title": "Collect",
+          "description": "Ingesting stealer logs, hacker forums, marketplaces, and paste sites for compromised machine data."
+        },
+        {
+          "phase": "Phase 2",
+          "title": "Enrich",
+          "description": "Normalizing data and adding context: hostnames, IP addresses, and device fingerprints."
+        },
+        {
+          "phase": "Phase 3",
+          "title": "Correlate",
+          "description": "Linking external host artifacts directly to your Active Directory users and endpoints."
+        },
+        {
+          "phase": "Phase 4",
+          "title": "Alert",
+          "description": "Instant webhooks or emails when high-risk exposures affect your specific AD environment."
+        },
+        {
+          "phase": "Phase 5",
+          "title": "Remediate",
+          "description": "Automating password resets, token revocations, and device isolation tickets."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Active Directory Security",
+      "title": "Keep Active Directory",
+      "titleHighlight": "Clean & Controlled",
+      "description": "Detect compromised hostnames, IPs, and credentials. Correlate to users and endpoints, then automate resets, revocations, and isolation workflows.",
+      "items": [
+        {
+          "title": "Detect AD Credential Exposure",
+          "description": "Find leaked usernames and passwords mapped to AD users, admins, and service accounts before they're abused."
+        },
+        {
+          "title": "Correlate Hosts & IPs",
+          "description": "Trace compromised hostnames, IP addresses, and session artifacts back to devices via logs and breach sources."
+        },
+        {
+          "title": "Surface Malware Paths",
+          "description": "Extract malware installation paths and stealer loot directories to pinpoint infected endpoints quickly."
+        },
+        {
+          "title": "Automate AD Response",
+          "description": "Trigger password resets, disable accounts, revoke sessions, and open tickets via webhook or email."
+        }
+      ],
+      "visuals": {
+        "user": {
+          "leaked": "LEAKED"
+        },
+        "graph": {
+          "stealerLog": "Stealer Log",
+          "matched": "MATCHED"
+        },
+        "path": {
+          "artifactExplorer": "Artifact Explorer",
+          "containsCredentials": "Contains 14 saved credentials"
+        },
+        "automate": {
+          "policyViolation": "Policy Violation: Exposed Credential",
+          "disableAccount": "Disable Account: CORP\\Admin_Sys",
+          "workflowCompleted": "Workflow Completed Successfully",
+          "now": "Just now"
+        }
+      }
+    }
+  },
+  "ransomware": {
+    "badge": "Ransomware Defense",
+    "hero": {
+      "title": "Stop Ransomware Before It Starts.",
+      "titleLine2": "Before Encryption.",
+      "badge": "Ransomware Prevention",
+      "description": "Intercept attacks at the Initial Access stage. We detect the precursors—stolen VPN creds, RDP listings, and infected endpoints—eliminating the entry points attackers rely on.",
+      "descriptionHighlight": "Initial Access",
+      "descriptionSuffix": "eliminating the entry points attackers rely on.",
+      "highlight": "Initial Access",
+      "identifyPrecursors": "Identify Precursors",
+      "viewThreatReport": "View Threat Report",
+      "ctaPrimary": "Identify Precursors",
+      "ctaSecondary": "View Threat Report",
+      "killChainMonitor": "KILL CHAIN MONITOR",
+      "stage1Label": "Stage 1: Initial Access",
+      "stage2Label": "Stage 2: Encryption",
+      "stage3Label": "Stage 3: Extortion",
+      "detected": "DETECTED",
+      "prevented": "PREVENTED",
+      "blocked": "BLOCKED",
+      "vpnCredential": "Stolen VPN Credential",
+      "sourceHackerForum": "Source: Hacker Forum",
+      "ransomwarePayload": "Ransomware Payload",
+      "dataLeakSite": "Data Leak Site",
+      "publicExposure": "Public Exposure"
+    },
+    "valueProps": {
+      "title": "Eliminate the",
+      "titleHighlight": "Entry Point.",
+      "description": "Ransomware doesn't just happen—it starts with a compromise. Whiteintel detects the specific precursors attackers rely on, stopping the kill chain at step one.",
+      "items": [
+        {
+          "title": "Close Open Doors",
+          "description": "Detect exposed RDP, VPN, and Citrix credentials sold on Initial Access Broker markets before they are exploited."
+        },
+        {
+          "title": "Spot Pre-Ransomware Signals",
+          "description": "Identify precursor infections like lumma, vidar, or other families that often precede a full encryption event."
+        },
+        {
+          "title": "Map the Attack Surface",
+          "description": "Correlate external exposures to specific internal assets to prioritize vulnerabilities that allow lateral movement."
+        },
+        {
+          "title": "Kill the Connection",
+          "description": "Instantly revoke compromised sessions, reset access, and isolate endpoints the moment a precursor is detected."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "The Workflow",
+      "title": "How We Stop Ransomware",
+      "titleHighlight": "Before It Hits",
+      "description": "We intercept the attack chain at the \"Initial Access\" stage—turning days of unnoticed exposure into immediate defensive action.",
+      "steps": [
+        {
+          "phase": "Phase 1",
+          "title": "Collect",
+          "description": "Harvesting ransomware precursors: stealer logs, RDP listings, and VPN credentials from dark markets."
+        },
+        {
+          "phase": "Phase 2",
+          "title": "Enrich",
+          "description": "De-duplicating data and enriching with IP reputation, device fingerprints, and geolocation."
+        },
+        {
+          "phase": "Phase 3",
+          "title": "Correlate",
+          "description": "Connecting compromised access points directly to your corporate network ranges and domains."
+        },
+        {
+          "phase": "Phase 4",
+          "title": "Alert",
+          "description": "Triggering instant high-priority alerts when an Initial Access Broker lists your assets."
+        },
+        {
+          "phase": "Phase 5",
+          "title": "Block",
+          "description": "Automating password resets, session revocation, and endpoint isolation before detonation."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Proactive Defense",
+      "title": "Block Ransomware at Its",
+      "titleHighlight": "Earliest Stage",
+      "description": "Whiteintel monitors dark web markets and stealer logs to uncover compromised credentials and malware precursors—stopping attacks before encryption begins.",
+      "items": [
+        {
+          "title": "Block Initial Access",
+          "description": "Identify and revoke stolen VPN, RDP, and SaaS credentials sold by Access Brokers before ransomware operators use them."
+        },
+        {
+          "title": "Uncover Breach Vectors",
+          "description": "Trace compromised accounts and endpoints back to infostealer logs, and dark web leaks."
+        },
+        {
+          "title": "Detect Malware Footholds",
+          "description": "Spot infostealer infections (precursors) often used to stage ransomware payloads, and cut them off early."
+        },
+        {
+          "title": "Automate Containment",
+          "description": "Feed intelligence to SOAR, SIEM, or EDR workflows for automated isolation, password resets, and alerting."
+        }
+      ],
+      "visuals": {
+        "access": {
+          "marketLabel": "Dark Market Listing",
+          "timeAgo": "2h ago",
+          "corporateAccess": "Corporate VPN Access",
+          "userInfo": "admin@target-corp.com • RDP",
+          "detected": "DETECTED",
+          "brokerIdentified": "Access Broker Identified & Blocked"
+        },
+        "vector": {
+          "stealerCampaign": "Stealer Campaign",
+          "compromisedUser": "Compromised User",
+          "endpoint": "Target Endpoint"
+        },
+        "foothold": {
+          "stealerDetected": "STEALER DETECTED"
+        },
+        "automate": {
+          "threatSignal": "Threat Signal",
+          "action": "Action",
+          "precursorIdentified": "Precursor Identified",
+          "isolateEndpoint": "Isolate Endpoint",
+          "resetCredentials": "Reset Credentials"
+        }
+      }
+    }
+  },
+  "darkweb": {
+    "badge": "Darkweb Mention Monitoring",
+    "hero": {
+      "title": "See What the Dark Web is Saying",
+      "titleLine2": "Your Name Across the",
+      "badge": "Dark Web Monitoring",
+      "titleHighlight": "About You.",
+      "description": "Go beyond credentials. We proactively monitor hidden networks for discussions targeting your brand, leaked product details, and executive threats. Know when you are the topic of conversation in the underground.",
+      "monitorStatus": "MONITORING ACTIVE THREADS..."
+    },
+    "valueProps": {
+      "title": "Protect Your Brand.",
+      "titleHighlight": "Spot Threats Early.",
+      "description": "Move from reactive incident response to proactive intelligence. We filter the noise of the dark web to find the signals that matter to your business.",
+      "items": [
+        {
+          "title": "Defend Brand Reputation",
+          "description": "Detect scam campaigns, phishing domains, and negative PR spinning up in underground threads before they go public."
+        },
+        {
+          "title": "Secure Intellectual Property",
+          "description": "Spot leaked source code, proprietary schematics, or unreleased product details appearing on marketplaces."
+        },
+        {
+          "title": "Protect VIPs & Executives",
+          "description": "Monitor for doxxing attempts, physical threats, or targeted harassment campaigns against your leadership team."
+        },
+        {
+          "title": "Pre-Attack Intelligence",
+          "description": "Identify threat actors actively asking for access to your specific tech stack or industry sector."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "The Workflow",
+      "title": "From Chatter to",
+      "titleHighlight": "Defense",
+      "description": "Turn underground chatter into defensive action. We filter millions of data points to find the threats that actually matter.",
+      "steps": [
+        {
+          "title": "Global Monitoring",
+          "description": "24/7 crawling of hacker forums (XSS, Exploit), invite-only Telegram groups, and IAB marketplaces.",
+          "phase": "Collection"
+        },
+        {
+          "title": "Threat Detection",
+          "description": "Identifying mentions of your brand, initial access sales, or specific exploit codes targeting your tech stack.",
+          "phase": "Collection"
+        },
+        {
+          "title": "Contextualize",
+          "description": "AI filters noise and verifies actor credibility (e.g., distinguishing real access brokers from scammers).",
+          "phase": "Analysis"
+        },
+        {
+          "title": "Rapid Alert",
+          "description": "High-fidelity notifications sent immediately when a credible threat or access sale is validated.",
+          "phase": "Action"
+        },
+        {
+          "title": "Proactive Defense",
+          "description": "Use the intelligence to patch vulnerabilities, reset compromised credentials, or block attack vectors.",
+          "phase": "Action"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Dark Web Intelligence",
+      "title": "Detect Threats",
+      "titleHighlight": "Before They Surface",
+      "description": "We continuously monitor thousands of hacker forums, marketplaces, and leak sites to catch initial access sales, exploit sharing, and brand mentions.",
+      "items": [
+        {
+          "title": "Monitor Hacker Forums",
+          "description": "Scan thousands of dark web forums and Telegram groups for brand mentions, attack planning, and 'hacktivist' targeting."
+        },
+        {
+          "title": "Detect Initial Access Sales",
+          "description": "Spot Initial Access Brokers (IABs) selling VPN, RDP, or Citrix access to your network before ransomware gangs buy them."
+        },
+        {
+          "title": "Track Data & Exploit Markets",
+          "description": "Identify listings for your corporate databases, source code, or specific exploits targeting your tech stack."
+        },
+        {
+          "title": "Real-Time Threat Alerts",
+          "description": "Receive immediate intelligence when your brand is named in leak sites, ransomware blogs, or exploit discussions."
+        }
+      ]
+    }
+  },
+  "mssp": {
+    "badge": "Partner Use Case",
+    "hero": {
+      "title": "Power Your MSSP with",
+      "titleLine2": "Dark Web Intel for",
+      "badge": "MSSP Partner",
+      "titleHighlight": "Dark Web Intel.",
+      "description": "Worldwide MSSP teams trust Whiteintel to power their exposure workflows. Delivered with multi-tenant scoping, clean enrichment, and real-time alerts for every client you protect.",
+      "descriptionPrefix": "Worldwide MSSP teams trust Whiteintel to power their exposure workflows. Delivered with ",
+      "descriptionHighlight": "multi-tenant scoping, clean enrichment, and real-time alerts",
+      "descriptionSuffix": " for every client you protect.",
+      "partnerWithUs": "Partner with Us",
+      "apiDocumentation": "API Documentation",
+      "ctaPrimary": "Partner with Us",
+      "ctaSecondary": "API Documentation"
+    },
+    "valueProps": {
+      "title": "Enrich Your Service.",
+      "titleHighlight": "Reduce Your Noise.",
+      "description": "Add concrete external exposure signals to your managed offering with minimal overhead and maximum fidelity.",
+      "items": [
+        {
+          "title": "Multi-Tenant by Design",
+          "description": "Scope exposures per customer tenant with domains, emails, and labels. Clean separation for reporting and SLAs."
+        },
+        {
+          "title": "EASM-Ready Signals",
+          "description": "Feed curated dark web findings into your ASM/EASM views to show real exposure paths and compromised assets."
+        },
+        {
+          "title": "Real-Time Alerts",
+          "description": "Webhook and email delivery for fast ticketing, resets, and takedowns—no extra plumbing required."
+        },
+        {
+          "title": "High Signal, Low Noise",
+          "description": "We filter and correlate so your analysts spend time responding—not triaging false positives."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "The Workflow",
+      "title": "How We Power",
+      "titleHighlight": "MSSP & EASM",
+      "description": "From raw external signals to customer-ready enrichment, alerts, and evidence—automated for scale.",
+      "steps": [
+        {
+          "title": "Collect",
+          "description": "Harvesting raw logs from stealers, forums, markets, and Telegram—curated for high signal.",
+          "phase": "Ingest"
+        },
+        {
+          "title": "Normalize",
+          "description": "De-duplicating data and enriching with multi-tenant labels, domains, and IP context.",
+          "phase": "Ingest"
+        },
+        {
+          "title": "Correlate",
+          "description": "Connecting credentials, malware paths, and infected devices into actionable exposure chains.",
+          "phase": "Process"
+        },
+        {
+          "title": "Alert",
+          "description": "Pushing per-tenant webhook or email alerts mapped directly to your runbooks and SOAR.",
+          "phase": "Process"
+        },
+        {
+          "title": "Deliver",
+          "description": "Exporting evidence for audit (JSON/CSV) and providing deep-dive links for analysts.",
+          "phase": "Deliver"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Managed Security Services",
+      "title": "Enrich Every Ticket with",
+      "titleHighlight": "Real Exposure Data",
+      "description": "Deliver better customer outcomes—less noise, faster response, and concrete evidence integrated directly into your managed service workflow.",
+      "items": [
+        {
+          "title": "Tenant-Scoped Intelligence",
+          "description": "Watchlists by domain, subdomain, IP, and computer name. Keep customer data clearly separated and secure."
+        },
+        {
+          "title": "Analyst-Ready Context",
+          "description": "Get compromised hostnames, IPs, malware paths, and credentials—cleanly normalized for immediate casework."
+        },
+        {
+          "title": "Embed in Your Stack",
+          "description": "Send alerts via webhook/email directly into your SIEM, SOAR, ITSM, or chat tools. Export evidence instantly."
+        },
+        {
+          "title": "Automate Customer Response",
+          "description": "Trigger resets, token revocations, and takedowns using the runbooks and tools you already use."
+        }
+      ]
+    }
+  },
+  "vuln": {
+    "badge": "Offensive Security",
+    "hero": {
+      "title": "Accelerate Your",
+      "badge": "Vulnerability Research",
+      "titleHighlight": "Reconnaissance.",
+      "description": "Worldwide red teamers and bug bounty hunters use Whiteintel to surface exposed accounts and hidden assets, turning reconnaissance into actionable exploitation paths faster.",
+      "descriptionHighlight": "exposed accounts and hidden assets",
+      "descriptionSuffix": "turning reconnaissance into actionable exploitation paths faster.",
+      "startScanning": "Start Scanning",
+      "apiDocs": "API Docs",
+      "cta": "Start Scanning",
+      "ctaSecondary": "API Docs"
+    },
+    "packaging": {
+      "title": "Choose Your Plan",
+      "description": "Select the right plan for your vulnerability research needs.",
+      "tiers": [
+        {
+          "name": "Research API",
+          "points": [
+            "Query by multiple identifiers",
+            "Full JSON/CSV export",
+            "Clean, normalized data"
+          ],
+          "cta": "Get API Access"
+        },
+        {
+          "name": "Alerts Add-On",
+          "points": [
+            "Webhook + Email",
+            "Match to watchlists",
+            "Instant delivery"
+          ],
+          "cta": "Enable Alerts"
+        },
+        {
+          "name": "Evidence Bundle",
+          "points": [
+            "Screenshots, raw data, and metadata",
+            "Ideal for bounty reports",
+            "Ready for client delivery"
+          ],
+          "cta": "Request Bundle"
+        }
+      ]
+    },
+    "valueProps": {
+      "title": "Turn Intel into",
+      "titleHighlight": "Impact.",
+      "description": "Use verified exposure data to improve findings, speed up discovery, and validate vulnerabilities with precision.",
+      "items": [
+        {
+          "title": "Sharper Recon",
+          "description": "Go beyond OSINT—get curated exposure data from stealer logs, breaches, and dark markets."
+        },
+        {
+          "title": "Expand Attack Surface",
+          "description": "Discover forgotten subdomains, exposed IPs, and leaked credentials tied to your targets."
+        },
+        {
+          "title": "Privilege Leverage",
+          "description": "Identify credential reuse, and tokens to escalate quickly in authorized tests."
+        },
+        {
+          "title": "Evidence for Reports",
+          "description": "Export high-fidelity evidence for vulnerability write-ups and bounty submissions."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "The Workflow",
+      "title": "How Researchers Use",
+      "titleHighlight": "Whiteintel",
+      "description": "From dark web reconnaissance to high-impact vulnerability reports—accelerating the discovery path.",
+      "steps": [
+        {
+          "title": "Collect",
+          "description": "Ingesting data from stealer logs, hacker forums, Telegram, and markets—curated for offensive signal.",
+          "phase": "Recon"
+        },
+        {
+          "title": "Enrich",
+          "description": "Mapping raw data to subdomains, IPs, and technologies to expand your target's attack surface.",
+          "phase": "Recon"
+        },
+        {
+          "title": "Correlate",
+          "description": "Linking exposed credentials and session tokens to specific admin panels and hidden endpoints.",
+          "phase": "Analyze"
+        },
+        {
+          "title": "Monitor",
+          "description": "Setting watchlists on domains to get instant alerts when new leaks appear during your engagement.",
+          "phase": "Analyze"
+        },
+        {
+          "title": "Export",
+          "description": "Downloading high-fidelity JSON/CSV evidence to validate your findings and support your bounty report.",
+          "phase": "Report"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Vulnerability Research",
+      "title": "Enhance Recon with",
+      "titleHighlight": "Verified Intelligence",
+      "description": "Gain deeper visibility into compromised infrastructure and credentials to support testing, validate findings, and strengthen security posture.",
+      "items": [
+        {
+          "title": "Targeted Reconnaissance",
+          "description": "Search by domain, subdomain, IP, or hostname. Precisely match your testing scope using advanced query filters."
+        },
+        {
+          "title": "Rich Exposure Context",
+          "description": "Get malware file paths, compromised hostnames, related URLs, and credentials fully normalized for research."
+        },
+        {
+          "title": "Seamless Data Export",
+          "description": "Export findings into your own tools (Burp, Maltego) via CSV/JSON to automate your testing pipeline."
+        },
+        {
+          "title": "Real-Time Alerts",
+          "description": "Get notified instantly via webhook or email when new dark web data matches your monitored targets."
+        }
+      ]
+    }
+  },
+  "lookalike": {
+    "badge": "Domain Intelligence",
+    "hero": {
+      "title": "Spot the Impostors Before They Go Live.",
+      "badge": "Domain Intelligence",
+      "titlePrefix": "Detect & Neutralize",
+      "titleHighlight": "Look-Alike Domains",
+      "description": "Continuously monitor newly registered domains to catch typosquatting, homoglyphs, and look-alike domains early. Stop phishing threats before they spread."
+    },
+    "valueProps": {
+      "title": "Defend Your",
+      "titleHighlight": "Digital Boundary",
+      "description": "Stop attackers from leveraging your brand trust. We monitor the open web to find and neutralize impersonators before your customers are victimized.",
+      "items": [
+        {
+          "title": "Spot Typosquatting",
+          "description": "Detect fuzzy matches, homoglyphs (IDN), and combo-squatting across 1,500+ TLDs instantly."
+        },
+        {
+          "title": "Pre-empt Phishing",
+          "description": "Identify malicious domains setting up MX records to launch email attacks before they go live."
+        },
+        {
+          "title": "Deep WHOIS Insights",
+          "description": "Access detailed registration data, creation dates, and registrar info to profile the actor behind the domain."
+        },
+        {
+          "title": "Rapid Takedowns",
+          "description": "Auto-generate evidence packs and abuse reports to suspend malicious registrars faster."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "From Registration to Intelligence",
+      "description": "A purpose-built automated pipeline that detects impostor domains and delivers actionable intelligence to your team instantly.",
+      "steps": [
+        {
+          "title": "Monitor",
+          "description": "Scanning 1,500+ TLDs, subdomains, and Certificate Transparency logs 24/7."
+        },
+        {
+          "title": "Enrich",
+          "description": "Querying DNS records, nameservers, and historical WHOIS data to build a profile."
+        },
+        {
+          "title": "Classify",
+          "description": "Analyzing fuzzy matches and homoglyphs to distinguish defensive registrations from threats."
+        },
+        {
+          "title": "Alert",
+          "description": "Pushing instant notifications to your SOC via Webhook or Email for critical matches."
+        }
+      ]
+    },
+    "howItStops": {
+      "badge": "How It Stops Impersonation",
+      "title": "Stop Impostor Domains",
+      "titleHighlight": "Before They Strike",
+      "description": "Our automated pipeline detects, classifies, and neutralizes look-alike domains targeting your brand across the entire internet.",
+      "stepLabel": "Step",
+      "items": [
+        {
+          "title": "Global Scanning",
+          "description": "Continuously monitoring 1,500+ TLDs, subdomains, and Certificate Transparency logs for new registrations."
+        },
+        {
+          "title": "Similarity Analysis",
+          "description": "Detecting fuzzy matches, homoglyphs, and combo-squatting with high-precision algorithms."
+        },
+        {
+          "title": "Threat Classification",
+          "description": "Distinguishing defensive registrations from genuine threats using DNS, WHOIS, and content analysis."
+        },
+        {
+          "title": "Instant Alerting",
+          "description": "Pushing real-time notifications to your SOC via Webhook or Email when critical matches are found."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Core Capabilities",
+      "title": "Complete Visibility Over Your",
+      "titleHighlight": "Brand Surface",
+      "description": "From daily registration feeds to detailed WHOIS profiling, we provide the insights to distinguish legitimate domains from malicious impostors.",
+      "items": [
+        {
+          "title": "Daily Global Scanning",
+          "description": "We monitor over 150,000 newly registered domains every 24 hours across all major TLDs to catch threats the moment they appear."
+        },
+        {
+          "title": "Advanced Similarity Detection",
+          "description": "Our algorithms detect fuzzy matches, IDN homoglyphs, and typosquatting attempts with high precision to reduce false positives."
+        },
+        {
+          "title": "Deep WHOIS Intelligence",
+          "description": "Unmask the actors behind the privacy guard. We automatically retrieve and parse registration data to identify repeat offenders."
+        },
+        {
+          "title": "Real-time Alerting & API",
+          "description": "Receive instant notifications via Email or Webhook, or ingest raw intelligence directly into your SOAR via our REST API."
+        }
+      ]
+    }
+  },
+  "consumer": {
+    "badge": "Consumer Protection",
+    "hero": {
+      "title": "Turn Malware Logs Into",
+      "badge": "Consumer Protection",
+      "titlePrefix": "Into Real-Time",
+      "titleHighlight": "Consumer Safety.",
+      "description": "We ingest millions of rows of data from InfoStealer infections (RedLine, Vidar) and hacker forums. We instantly map these compromised credentials to your actual users, allowing for proactive defense."
+    },
+    "valueProps": {
+      "title": "Stop Takeovers",
+      "titleHighlight": "Before They Start.",
+      "description": "Standard security reacts to failed login attempts. We act earlier, identifying compromised users the moment their device is infected by malware.",
+      "items": [
+        {
+          "title": "Ingest Malware Logs",
+          "description": "Direct access to real-time streams from RedLine, Vidar, and Raccoon stealer clouds. We catch the data before it hits public forums."
+        },
+        {
+          "title": "Precise User Matching",
+          "description": "We parse messy raw logs and map compromised credentials directly to your customer database with high-fidelity matching."
+        },
+        {
+          "title": "Pre-Auth Remediation",
+          "description": "Invalidate sessions and force password resets the moment an infection is detected, stopping hackers before they even try to login."
+        },
+        {
+          "title": "Automated Defense",
+          "description": "Integrate via API to trigger instant defensive workflows without manual intervention whenever a user is compromised."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "The Workflow",
+      "title": "From Infection to",
+      "titleHighlight": "Protection",
+      "description": "Stop account takeovers before the hacker even logs in. We automate the path from raw malware log to user security.",
+      "steps": [
+        {
+          "title": "Log Collection",
+          "description": "We stream live logs from malware C2 servers and 'cloud of logs' repositories (RedLine, Vidar, etc).",
+          "phase": "Ingestion"
+        },
+        {
+          "title": "Data Parsing",
+          "description": "Raw text files are normalized. We extract URLs, usernames, passwords.",
+          "phase": "Ingestion"
+        },
+        {
+          "title": "Identity Check",
+          "description": "Extracted credentials are cross-referenced against your user base to identify compromised customers.",
+          "phase": "Matching"
+        },
+        {
+          "title": "Force Reset",
+          "description": "API triggers an immediate password reset for the affected user, invalidating the stolen credentials.",
+          "phase": "Response"
+        },
+        {
+          "title": "Warn the User",
+          "description": "Notify the user for cybersecurity awareness.",
+          "phase": "Response"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Infection Intelligence",
+      "title": "Secure Accounts From",
+      "titleHighlight": "Compromised Devices",
+      "description": "We bridge the gap between malware infections and your authentication system, stopping hackers from using stolen credentials to access your platform.",
+      "items": [
+        {
+          "title": "Ingest Malware Logs",
+          "description": "Connect directly to info-stealer command & control (C2) servers. We pull raw logs from RedLine, Vidar, and Raccoon infections in real-time."
+        },
+        {
+          "title": "Map to Customers",
+          "description": "We correlate raw infection data (usernames, passwords, machine IDs) with your user database to pinpoint exactly who is compromised."
+        },
+        {
+          "title": "Block Account Takeover",
+          "description": "Stop credential stuffing attacks at the login gate. If a user's credentials appear in a stealer log, we lock the account instantly."
+        },
+        {
+          "title": "Automate Remediation",
+          "description": "Trigger a password reset via API the moment a threat is detected, securing the account without manual intervention."
+        }
+      ]
+    }
+  },
+  "platform": {
+    "badge": "Platform Overview",
+    "title": "See What Attackers See",
+    "titleHighlight": "Before They Strike.",
+    "description": "Continuous dark-web monitoring that turns stealer logs and leaked credentials into actionable intelligence. Detect, prioritize, and remediate faster.",
+    "knowledgeCenter": "Knowledge Center",
+    "viewDocs": "View Integration Docs",
+    "cta": "Knowledge Center",
+    "ctaSecondary": "View Integration Docs"
+  }
+}

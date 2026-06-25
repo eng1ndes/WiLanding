@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "title": "Stolen data hits the Dark Web.",
+    "titleSuffix": "Find yours before attackers do.",
+    "description": "Whiteintel monitors malware infections, hacker forums, and Telegram channels for the brands you protect. Real-time intelligence on leaked credentials and lookalike domains, with managed takedowns of the infrastructure impersonating you.",
+    "tagline": "See what the dark web already knows about your organization.",
+    "searchHint": "Domain or work email · results in seconds · no signup needed",
+    "g2Note": "Based on G2 reviews",
+    "storyProblemTitle": "Stolen credentials are the entry point",
+    "storyProblemBody": "Infostealer malware quietly harvests employee and customer logins, and they surface on hacker forums and Telegram within hours. Most teams never see it happen.",
+    "storySolutionTitle": "From detection to takedown",
+    "storySolutionBody": "Whiteintel monitors hacker forums, dark web marketplaces, Telegram channels, and stealer logs in real time, surfacing brand mentions and leaked credentials as they appear. Reset accounts, revoke sessions, and take down impersonating infrastructure before stolen access becomes a breach.",
+    "cta": "Start For Free",
+    "dashboardLabel": "Whiteintel Dashboard",
+    "liveAlert": "Live Alert"
+  },
+  "threats": {
+    "darkWebMention": "Dark Web Mention",
+    "corporateLeak": "Corporate Leak",
+    "githubSecret": "GitHub Secret",
+    "phishingDomain": "Phishing Domain",
+    "stealerInfection": "Stealer Infection",
+    "repositoryScan": "Repository Scan",
+    "lookalikeAlert": "Lookalike Alert",
+    "detail1_darkweb": "Target: 'Whiteintel' seen on XSS Forum",
+    "detail1_corporate": "admin@yourcompany.com | Pwd: 123****",
+    "detail1_github": "AWS_KEY exposed in /dev",
+    "detail1_domain": "white-intel.support [Active]",
+    "detail2_darkweb": "Database: 'Whiteintel.io' seen on Exploit Forum",
+    "detail2_corporate": "security-lead@enterprise.org | Pwd: 123****",
+    "detail2_github": "id_rsa found in public repo",
+    "detail2_domain": "wh1teintel-login.com"
+  },
+  "search": {
+    "title": "Check your Dark Web Exposure",
+    "subtitle": "Enter a domain or email to detect your leak exposure in seconds",
+    "placeholder": "e.g. yourcompany.com or john@acme.com",
+    "button": "GET FREE REPORT",
+    "loading": "GENERATING REPORT...",
+    "errorDomain": "Please enter a domain or email.",
+    "errorCaptcha": "Please complete the captcha first.",
+    "errorTitle": "We couldn't complete your request"
+  },
+  "features": {
+    "badge": "Tactical Visibility",
+    "title": "Every exposure channel.",
+    "titleHighlight": "One place to see them.",
+    "description": "Eight detection modules cover everything from stolen credentials to fraudulent domains and exposed code. Each alert ties the finding to the asset it affects, so your team acts on signal, not noise.",
+    "platformTour": "Platform Tour",
+    "platformLabel": "Whiteintel Platform",
+    "items": [
+      { "title": "Credential Leak Monitoring", "description": "Real-time tracking of plaintext credentials across hacker forum shares and private logs." },
+      { "title": "Infostealer Intelligence", "description": "Direct exfiltration from C2 servers, pinpointing infected devices and organizational exposure." },
+      { "title": "Dark Web Mention Monitoring", "description": "Automated scanning of onion sites, marketplaces, and Telegram channels for brand mentions." },
+      { "title": "Look-alike Domain Detection", "description": "Proactive alerting on typosquatting and malicious infrastructure targeting your brand." },
+      { "title": "GitHub Secret Scanning", "description": "Identify exposed API keys, private tokens, and internal code snippets in public repositories." },
+      { "title": "Continuous Threat News", "description": "Aggregated, AI-summarized intelligence from underground forums and public security feeds." },
+      { "title": "Supplier Security", "description": "Continuous exposure monitoring for your vendors with a 0-100 supply-chain risk score per supplier." },
+      { "title": "Payment Fraud Intelligence", "description": "Real-time stolen-card and BIN monitoring against the WhiteIntel exposed-card index." }
+    ]
+  },
+  "howItWorks": {
+    "badge": "The Intelligence Lifecycle",
+    "title": "How Whiteintel",
+    "titleHighlight": "Works",
+    "description": "We continuously ingest and analyze millions of raw data points from the dark web, filtering out the noise to deliver a high-fidelity intelligence pipeline.",
+    "startForFree": "Start for Free",
+    "contactUs": "Contact Us",
+    "steps": [
+      { "title": "Detect", "description": "Dark web intelligence collected by Whiteintel Sensors across Telegram, Hacker Forums, Dark Web Resources and Stealer Logs." },
+      { "title": "Prioritize", "description": "Our AI engine correlates big data and generates searchable and actionable threat intelligence." },
+      { "title": "Remediate", "description": "Neutralize stolen accounts via automated API triggers before unauthorized access occurs." }
+    ]
+  },
+  "teams": {
+    "badge": "Strategic Partner",
+    "title": "Empowering Global",
+    "titleHighlight": "Cybersecurity Operations",
+    "description": "Whiteintel integrates seamlessly into professional security ecosystems, providing the precision required for mission-critical decision making.",
+    "platformOverview": "Platform Overview",
+    "items": [
+      { "title": "SOC Teams", "description": "Accelerate incident response with high-fidelity credential leak intelligence and real-time compromise detection." },
+      { "title": "MSSPs", "description": "Scale managed security services across global client portfolios with unified dark web intelligence and API-driven workflows." },
+      { "title": "Red Teams", "description": "Precision reconnaissance through exposed secrets and brand-mimicking domains for high-impact adversary simulations." },
+      { "title": "Security Researchers", "description": "Uncover high-impact vulnerabilities and exposed secrets to fortify reconnaissance and complex attack surface analysis." }
+    ]
+  },
+  "benefits": {
+    "badge": "Operational Excellence",
+    "title": "Engineered for",
+    "titleHighlight": "Strategic Risk Protection",
+    "description": "Whiteintel transforms raw dark web telemetry into high-fidelity intelligence, allowing security teams to preemptively secure compromised identities at scale.",
+    "items": [
+      { "title": "Total Darkweb Visibility", "description": "Instantaneous detection of credential leaks, dark web mentions, and brand-mimicking infrastructure." },
+      { "title": "Proprietary Intel Engine", "description": "Leveraging one of the world's largest info-stealer datasets for sub-minute detection and threat neutralization." },
+      { "title": "Forensic Data Enrichment", "description": "Deep-tier metadata including hardware identifiers, affected applications, and exposed credentials." },
+      { "title": "High-Fidelity Intelligence", "description": "Zero-noise, structured data streams curated by AI for immediate incident response triage." },
+      { "title": "Enterprise-Grade API", "description": "High-throughput, RESTful architecture designed for seamless large-scale data ingestion and sharing." },
+      { "title": "Intelligence on Demand", "description": "Direct access to Tier-3 security analysts and dark web subject matter experts." },
+      { "title": "Transparent TCO", "description": "Predictable, enterprise-scale pricing models designed for sustainable security budget management." },
+      { "title": "Native Ecosystem Sync", "description": "Automated workflow orchestration with native Jira, Slack, and Enterprise Webhook integrations." }
+    ]
+  },
+  "testimonials": {
+    "title": "Don't take our word for it",
+    "description": "Verified reviews from CISOs, SOC managers, and security operations teams running Whiteintel in production.",
+    "verified": "Verified",
+    "verifiedReviewer": "Verified G2 Reviewer",
+    "readMore": "Read reviews on G2"
+  },
+  "trustedBy": "Trusted by security teams at",
+  "trustedByHighlight": "industry leaders",
+  "trustedByBadge": "Trusted Partners",
+  "stats": {
+    "badge": "By the numbers",
+    "title": "The intelligence",
+    "titleHighlight": "behind every alert",
+    "description": "Continuous collection across every underground source. Live numbers, updated daily.",
+    "stealerLogs": "Stealer Logs Indexed",
+    "uniqueCredentials": "Unique Credentials Tracked",
+    "threatActors": "Threat Actors Monitored",
+    "darkWebEvents": "Dark Web Events Recorded"
+  }
+}

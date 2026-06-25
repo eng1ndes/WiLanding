@@ -1,0 +1,966 @@
+{
+  "ato": {
+    "badge": "账户接管防护",
+    "hero": {
+      "title": "防止账户接管。",
+      "description": "主动暗网监控凭证泄露。检测暴露的身份信息并在攻击者利用之前自动响应。",
+      "cardHeader": "检测到泄露凭证",
+      "cardSubtext": "实时告警 • 刚刚",
+      "autoRemediate": "自动修复",
+      "investigate": "调查"
+    },
+    "valueProps": {
+      "title": "在账户接管",
+      "titleHighlight": "发生之前将其切断",
+      "description": "Whiteintel 将泄露的凭证和窃密工件转化为优先行动，让您的安全团队占据主动。",
+      "items": [
+        {
+          "title": "阻止凭证滥用",
+          "description": "在与您域名关联的用户名和密码被出售之前检测其暴露情况。"
+        },
+        {
+          "title": "发现受感染设备",
+          "description": "精确识别与企业账户关联的窃密木马感染终端。"
+        },
+        {
+          "title": "阻断接管路径",
+          "description": "通过自动化威胁映射降低密码重用和撞库攻击风险。"
+        },
+        {
+          "title": "快速响应告警",
+          "description": "接收实时 Webhook 或邮件通知，触发即时密码重置和下架处理。"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "工作流程",
+      "title": "从检测到消除",
+      "description": "专为将原始暗网信号转化为确定性安全行动而构建的自动化管道，消除人工延迟。",
+      "steps": [
+        {
+          "title": "采集",
+          "description": "持续获取窃密日志、黑客论坛、Telegram 频道和粘贴站点的数据。"
+        },
+        {
+          "title": "富化",
+          "description": "去重数据并将身份映射到您的特定域名和重要人员。"
+        },
+        {
+          "title": "关联",
+          "description": "链接凭证和令牌以识别高可信度的暴露路径。"
+        },
+        {
+          "title": "告警",
+          "description": "当高风险暴露验证通过后，立即推送实时 Webhook 或邮件通知。"
+        },
+        {
+          "title": "修复",
+          "description": "通过 API 触发自动密码重置、会话撤销和下架处理。"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "核心能力",
+      "title": "在接管发生之前将其阻止",
+      "description": "我们实时获取数百万条来自信息窃取木马和暗网论坛的日志，为您提供在攻击者行动之前采取措施的情报。",
+      "items": [
+        {
+          "title": "阻止账户入侵",
+          "description": "在与您域名和重要人员关联的被盗凭证被用于未授权登录之前检测它们。"
+        },
+        {
+          "title": "溯源泄露来源",
+          "description": "将暴露的用户名和密码追溯到特定的窃密日志、暗网市场和粘贴站点。"
+        },
+        {
+          "title": "识别受感染设备",
+          "description": "发现访问过企业资产的信息窃取木马感染终端，包括 IP 和设备指纹识别。"
+        },
+        {
+          "title": "自动化接管响应",
+          "description": "触发密码重置、撤销会话，并即时向您的 SOAR 剧本发送 Webhook。"
+        }
+      ]
+    },
+    "roi": {
+      "title": "阻止损失",
+      "titleHighlight": "防患于未然",
+      "description": "账户接管每年给企业造成数十亿美元的欺诈、退款和品牌恢复成本。仅防止一次事件即可收回平台投资。",
+      "badge": "不作为的代价",
+      "stats": [
+        {
+          "value": "$4.88M",
+          "label": "平均数据泄露成本",
+          "sub": "全球平均水平（2024）",
+          "description": "数据泄露成本持续攀升，使得早期检测不仅是安全需求，更是财务必需。"
+        },
+        {
+          "value": "88%",
+          "label": "Web 应用泄露",
+          "description": "攻击者不是破门而入——他们使用从第三方窃取的有效凭证登录。"
+        },
+        {
+          "value": "22%",
+          "label": "初始访问向量",
+          "description": "被盗凭证仍然是攻击者获取立足点的首要可靠途径。"
+        }
+      ]
+    }
+  },
+  "enterprise": {
+    "badge": "企业防护",
+    "hero": {
+      "title": "企业级身份防护。",
+      "description": "保护员工身份和内部系统。我们实时扫描 Telegram、暗网论坛和窃密日志，在企业凭证被利用之前发现泄露。",
+      "highlight": "Telegram、暗网论坛和窃密日志"
+    },
+    "valueProps": {
+      "title": "保护身份。",
+      "titleHighlight": "守护系统。",
+      "description": "将外部暴露信号转化为明确的行动，保护员工对企业系统和基础设施的访问安全。",
+      "items": [
+        {
+          "title": "保护内部访问",
+          "description": "在暴露的企业凭证被用于进入 AD/SSO、VPN 或内部应用之前检测它们。"
+        },
+        {
+          "title": "守护特权账户",
+          "description": "发现与管理员、服务账户和高管相关的高风险暴露；快速行动以减小影响范围。"
+        },
+        {
+          "title": "保障员工安全",
+          "description": "将泄露映射到员工和团队；以最小干扰完成通知、重置和教育。"
+        },
+        {
+          "title": "减少横向移动",
+          "description": "撤销会话、重置密码、移除令牌，以切断攻击者的持久化。"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "工作流程",
+      "title": "我们如何保护员工访问安全",
+      "description": "从外部信号到自动化行动——专为保护内部系统免受接管而构建。",
+      "steps": [
+        {
+          "title": "采集",
+          "description": "持续获取来自窃密云、论坛、Telegram 和粘贴站点的日志。"
+        },
+        {
+          "title": "富化",
+          "description": "规范化数据并将身份映射到特定域名、用户和设备。"
+        },
+        {
+          "title": "关联",
+          "description": "将凭证链接到员工以精确定位高风险访问路径。"
+        },
+        {
+          "title": "告警",
+          "description": "通过 Webhook 或邮件向安全团队即时推送经过验证的告警。"
+        },
+        {
+          "title": "修复",
+          "description": "通过 API 触发密码重置、会话撤销和下架处理。"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "保护员工身份",
+      "title": "确保企业访问安全可控",
+      "description": "实时监控泄露和窃密工件。将暴露映射到用户和系统，然后通过适合您工作流程的重置和撤销进行响应。",
+      "items": [
+        {
+          "title": "防止内部入侵",
+          "description": "检测与您域名、AD/SSO 用户和 VPN 关联的企业凭证泄露，防止被滥用。"
+        },
+        {
+          "title": "调查暴露情况",
+          "description": "按邮箱、用户名或 IP 搜索以追溯来源——窃密日志、论坛和粘贴站点。"
+        },
+        {
+          "title": "发现风险终端",
+          "description": "识别与企业登录关联的存在窃密暴露的设备，并快速隔离。"
+        },
+        {
+          "title": "自动化响应",
+          "description": "触发密码重置、撤销会话、通知用户，并将告警发送到您的工作流程中。"
+        }
+      ]
+    }
+  },
+  "ad": {
+    "badge": "应用场景",
+    "hero": {
+      "title": "保护 AD 身份与设备。",
+      "titleLine2": "抵御外部威胁。",
+      "badge": "Active Directory 防护",
+      "description": "实时检测受损的主机名、IP 和凭证。我们将外部泄露与您的 Active Directory 用户和终端进行关联，以自动化隔离工作流程。",
+      "descriptionHighlight": "Active Directory",
+      "descriptionSuffix": "以自动化隔离工作流程。",
+      "highlight": "Active Directory",
+      "scannerStatus": "正在扫描外部来源...",
+      "domainController": "DC01",
+      "statusActive": "活跃",
+      "statusSecure": "安全",
+      "statusOnline": "在线",
+      "statusInfected": "已感染",
+      "statusIsolated": "已隔离",
+      "logMonitoring": "[系统] 正在监控 AD 对象...",
+      "logAlert": "[告警] 检测到凭证匹配: WS-FIN-04",
+      "logSync": "[系统] 正在同步外部数据源...",
+      "logAction": "[操作] 正在隔离设备..."
+    },
+    "valueProps": {
+      "title": "让 AD 成为",
+      "titleHighlight": "最难突破的防线。",
+      "description": "Whiteintel 将外部信号转化为具体行动，保护 Active Directory 身份和设备免受外部入侵。",
+      "items": [
+        {
+          "title": "发现受损主机",
+          "description": "识别在窃密日志和泄露工件中发现的暴露主机名和 IP，然后将其映射回 AD 设备。"
+        },
+        {
+          "title": "关联真实用户",
+          "description": "将设备和工件关联到特定的 AD 用户或组，以加快响应速度。"
+        },
+        {
+          "title": "保护内部应用",
+          "description": "发现用于访问 VPN、SSO 和关键应用的风险终端——减少横向移动。"
+        },
+        {
+          "title": "自信响应",
+          "description": "通过 Webhook/邮件告警启动密码重置、令牌撤销、设备隔离和工单创建。"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "工作流程",
+      "title": "我们如何保护",
+      "titleHighlight": "Active Directory",
+      "description": "从识别受损主机名到果断响应——自动化内部网络防御。",
+      "steps": [
+        {
+          "phase": "阶段 1",
+          "title": "采集",
+          "description": "从窃密日志、黑客论坛、市场和粘贴站点获取受损机器数据。"
+        },
+        {
+          "phase": "阶段 2",
+          "title": "富化",
+          "description": "规范化数据并添加上下文：主机名、IP 地址和设备指纹。"
+        },
+        {
+          "phase": "阶段 3",
+          "title": "关联",
+          "description": "将外部主机工件直接链接到您的 Active Directory 用户和终端。"
+        },
+        {
+          "phase": "阶段 4",
+          "title": "告警",
+          "description": "当高风险暴露影响到您的特定 AD 环境时，即时推送 Webhook 或邮件。"
+        },
+        {
+          "phase": "阶段 5",
+          "title": "修复",
+          "description": "自动化密码重置、令牌撤销和设备隔离工单。"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Active Directory 安全",
+      "title": "保持 Active Directory",
+      "titleHighlight": "整洁可控",
+      "description": "检测受损主机名、IP 和凭证。关联到用户和终端，然后自动化重置、撤销和隔离工作流程。",
+      "items": [
+        {
+          "title": "检测 AD 凭证暴露",
+          "description": "发现映射到 AD 用户、管理员和服务账户的泄露用户名和密码，防止被滥用。"
+        },
+        {
+          "title": "关联主机与 IP",
+          "description": "通过日志和泄露来源将受损主机名、IP 地址和会话工件追溯到设备。"
+        },
+        {
+          "title": "发现恶意软件路径",
+          "description": "提取恶意软件安装路径和窃密收集目录，以快速定位受感染终端。"
+        },
+        {
+          "title": "自动化 AD 响应",
+          "description": "通过 Webhook 或邮件触发密码重置、禁用账户、撤销会话和创建工单。"
+        }
+      ],
+      "visuals": {
+        "user": {
+          "leaked": "已泄露"
+        },
+        "graph": {
+          "stealerLog": "窃密日志",
+          "matched": "已匹配"
+        },
+        "path": {
+          "artifactExplorer": "工件浏览器",
+          "containsCredentials": "包含 14 个已保存的凭证"
+        },
+        "automate": {
+          "policyViolation": "策略违规: 凭证暴露",
+          "disableAccount": "禁用账户: CORP\\Admin_Sys",
+          "workflowCompleted": "工作流程已成功完成",
+          "now": "刚刚"
+        }
+      }
+    }
+  },
+  "ransomware": {
+    "badge": "勒索软件防御",
+    "hero": {
+      "title": "在勒索软件启动之前阻止它。",
+      "titleLine2": "在加密之前。",
+      "badge": "勒索软件防护",
+      "description": "在初始访问阶段拦截攻击。我们检测前兆信号——被盗的 VPN 凭证、RDP 列表和受感染终端——消除攻击者依赖的入口点。",
+      "descriptionHighlight": "初始访问",
+      "descriptionSuffix": "消除攻击者依赖的入口点。",
+      "highlight": "初始访问",
+      "identifyPrecursors": "识别前兆信号",
+      "viewThreatReport": "查看威胁报告",
+      "ctaPrimary": "识别前兆信号",
+      "ctaSecondary": "查看威胁报告",
+      "killChainMonitor": "攻击链监控",
+      "stage1Label": "阶段1: 初始访问",
+      "stage2Label": "阶段2: 加密",
+      "stage3Label": "阶段3: 勒索",
+      "detected": "已检测",
+      "prevented": "已阻止",
+      "blocked": "已拦截",
+      "vpnCredential": "被盗 VPN 凭证",
+      "sourceHackerForum": "来源: 黑客论坛",
+      "ransomwarePayload": "勒索软件载荷",
+      "dataLeakSite": "数据泄露站点",
+      "publicExposure": "公开曝光"
+    },
+    "valueProps": {
+      "title": "消除",
+      "titleHighlight": "入口点。",
+      "description": "勒索软件不会凭空发生——它始于一次入侵。Whiteintel 检测攻击者依赖的特定前兆信号，在第一步就阻断攻击链。",
+      "items": [
+        {
+          "title": "关闭敞开的大门",
+          "description": "在初始访问代理市场上出售的暴露 RDP、VPN 和 Citrix 凭证被利用之前检测它们。"
+        },
+        {
+          "title": "发现勒索软件前兆信号",
+          "description": "识别 Lumma、Vidar 等家族的前兆感染，这些感染通常在全面加密事件之前出现。"
+        },
+        {
+          "title": "映射攻击面",
+          "description": "将外部暴露关联到特定内部资产，优先处理允许横向移动的漏洞。"
+        },
+        {
+          "title": "切断连接",
+          "description": "一旦检测到前兆信号，立即撤销受损会话、重置访问权限并隔离终端。"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "工作流程",
+      "title": "我们如何在勒索软件",
+      "titleHighlight": "攻击之前阻止它",
+      "description": "我们在「初始访问」阶段拦截攻击链——将数天的未被发现的暴露转化为立即的防御行动。",
+      "steps": [
+        {
+          "phase": "阶段 1",
+          "title": "采集",
+          "description": "从暗网市场收集勒索软件前兆信号：窃密日志、RDP 列表和 VPN 凭证。"
+        },
+        {
+          "phase": "阶段 2",
+          "title": "富化",
+          "description": "去重数据并通过 IP 信誉、设备指纹和地理位置进行富化。"
+        },
+        {
+          "phase": "阶段 3",
+          "title": "关联",
+          "description": "将受损的访问点直接连接到您的企业网络范围和域名。"
+        },
+        {
+          "phase": "阶段 4",
+          "title": "告警",
+          "description": "当初始访问代理列出您的资产时，触发即时高优先级告警。"
+        },
+        {
+          "phase": "阶段 5",
+          "title": "阻断",
+          "description": "在引爆之前自动化密码重置、会话撤销和终端隔离。"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "主动防御",
+      "title": "在最早阶段",
+      "titleHighlight": "阻断勒索软件",
+      "description": "Whiteintel 监控暗网市场和窃密日志，发现受损凭证和恶意软件前兆——在加密开始之前阻止攻击。",
+      "items": [
+        {
+          "title": "阻断初始访问",
+          "description": "在勒索软件运营者使用之前，识别并撤销访问代理出售的被盗 VPN、RDP 和 SaaS 凭证。"
+        },
+        {
+          "title": "溯源泄露向量",
+          "description": "将受损账户和终端追溯到信息窃取木马日志和暗网泄露。"
+        },
+        {
+          "title": "检测恶意软件立足点",
+          "description": "发现通常用于部署勒索软件载荷的信息窃取木马感染（前兆），并尽早切断。"
+        },
+        {
+          "title": "自动化遏制",
+          "description": "将情报输送到 SOAR、SIEM 或 EDR 工作流程，实现自动化隔离、密码重置和告警。"
+        }
+      ],
+      "visuals": {
+        "access": {
+          "marketLabel": "暗网市场列表",
+          "timeAgo": "2小时前",
+          "corporateAccess": "企业 VPN 访问",
+          "userInfo": "admin@target-corp.com • RDP",
+          "detected": "已检测",
+          "brokerIdentified": "访问代理已识别并拦截"
+        },
+        "vector": {
+          "stealerCampaign": "窃密活动",
+          "compromisedUser": "受损用户",
+          "endpoint": "目标终端"
+        },
+        "foothold": {
+          "stealerDetected": "检测到窃密木马"
+        },
+        "automate": {
+          "threatSignal": "威胁信号",
+          "action": "操作",
+          "precursorIdentified": "前兆已识别",
+          "isolateEndpoint": "隔离终端",
+          "resetCredentials": "重置凭证"
+        }
+      }
+    }
+  },
+  "darkweb": {
+    "badge": "暗网提及监控",
+    "hero": {
+      "title": "看看暗网在",
+      "titleLine2": "您的名字遍布",
+      "badge": "暗网监控",
+      "titleHighlight": "谈论什么关于您。",
+      "description": "超越凭证监控。我们主动监控隐藏网络中针对您品牌的讨论、泄露的产品细节和高管威胁。了解您何时成为地下网络的话题。",
+      "monitorStatus": "正在监控活跃话题..."
+    },
+    "valueProps": {
+      "title": "保护您的品牌。",
+      "titleHighlight": "尽早发现威胁。",
+      "description": "从被动事件响应转向主动情报。我们过滤暗网噪音，找到对您业务真正重要的信号。",
+      "items": [
+        {
+          "title": "维护品牌声誉",
+          "description": "在地下论坛中发现正在策划的欺诈活动、钓鱼域名和负面公关，在它们公开之前。"
+        },
+        {
+          "title": "保护知识产权",
+          "description": "发现市场上出现的泄露源代码、专有设计图或未发布的产品细节。"
+        },
+        {
+          "title": "保护重要人员和高管",
+          "description": "监控针对您领导团队的人肉搜索、人身威胁或定向骚扰活动。"
+        },
+        {
+          "title": "预攻击情报",
+          "description": "识别正在寻求访问您特定技术栈或行业领域的威胁行为者。"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "工作流程",
+      "title": "从暗网讨论到",
+      "titleHighlight": "主动防御",
+      "description": "将地下网络讨论转化为防御行动。我们过滤数百万数据点，找到真正重要的威胁。",
+      "steps": [
+        {
+          "title": "全球监控",
+          "description": "全天候爬取黑客论坛（XSS、Exploit）、仅限邀请的 Telegram 群组和初始访问代理市场。",
+          "phase": "采集"
+        },
+        {
+          "title": "威胁检测",
+          "description": "识别您品牌的提及、初始访问出售或针对您技术栈的特定漏洞利用代码。",
+          "phase": "采集"
+        },
+        {
+          "title": "上下文分析",
+          "description": "AI 过滤噪音并验证行为者可信度（例如区分真正的访问代理和骗子）。",
+          "phase": "分析"
+        },
+        {
+          "title": "快速告警",
+          "description": "当可信威胁或访问出售被验证时，立即发送高保真通知。",
+          "phase": "行动"
+        },
+        {
+          "title": "主动防御",
+          "description": "利用情报修补漏洞、重置受损凭证或阻断攻击向量。",
+          "phase": "行动"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "暗网情报",
+      "title": "在威胁浮出水面之前",
+      "titleHighlight": "检测它们",
+      "description": "我们持续监控数千个黑客论坛、市场和泄露站点，捕获初始访问出售、漏洞利用分享和品牌提及。",
+      "items": [
+        {
+          "title": "监控黑客论坛",
+          "description": "扫描数千个暗网论坛和 Telegram 群组，发现品牌提及、攻击策划和'黑客行动主义'目标。"
+        },
+        {
+          "title": "检测初始访问出售",
+          "description": "在勒索软件团伙购买之前，发现初始访问代理（IAB）出售的 VPN、RDP 或 Citrix 网络访问权限。"
+        },
+        {
+          "title": "追踪数据与漏洞市场",
+          "description": "识别您企业数据库、源代码或针对您技术栈的特定漏洞利用的列表。"
+        },
+        {
+          "title": "实时威胁告警",
+          "description": "当您的品牌在泄露站点、勒索软件博客或漏洞利用讨论中被提及时，立即接收情报。"
+        }
+      ]
+    }
+  },
+  "mssp": {
+    "badge": "合作伙伴应用场景",
+    "hero": {
+      "title": "用暗网情报",
+      "titleLine2": "暗网情报赋能",
+      "badge": "MSSP 合作伙伴",
+      "titleHighlight": "赋能您的 MSSP。",
+      "description": "全球 MSSP 团队信赖 Whiteintel 来驱动其暴露工作流程。提供多租户范围界定、清洁的富化数据和对您保护的每个客户的实时告警。",
+      "descriptionPrefix": "全球 MSSP 团队信赖 Whiteintel 来驱动其暴露工作流程。提供",
+      "descriptionHighlight": "多租户范围界定、清洁的富化数据和实时告警",
+      "descriptionSuffix": "为您保护的每个客户提供服务。",
+      "partnerWithUs": "与我们合作",
+      "apiDocumentation": "API 文档",
+      "ctaPrimary": "与我们合作",
+      "ctaSecondary": "API 文档"
+    },
+    "valueProps": {
+      "title": "增强您的服务。",
+      "titleHighlight": "减少您的噪音。",
+      "description": "以最小的开销和最高的保真度，为您的托管服务添加具体的外部暴露信号。",
+      "items": [
+        {
+          "title": "原生多租户设计",
+          "description": "按客户租户使用域名、邮箱和标签界定暴露范围。为报告和 SLA 提供清晰的隔离。"
+        },
+        {
+          "title": "EASM 就绪信号",
+          "description": "将精选的暗网发现输入您的 ASM/EASM 视图，展示真实的暴露路径和受损资产。"
+        },
+        {
+          "title": "实时告警",
+          "description": "通过 Webhook 和邮件快速创建工单、重置和下架——无需额外管道。"
+        },
+        {
+          "title": "高信号低噪音",
+          "description": "我们过滤和关联数据，让您的分析师专注于响应——而非分类误报。"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "工作流程",
+      "title": "我们如何赋能",
+      "titleHighlight": "MSSP 与 EASM",
+      "description": "从原始外部信号到客户就绪的富化数据、告警和证据——为规模化自动化构建。",
+      "steps": [
+        {
+          "title": "采集",
+          "description": "从窃密工具、论坛、市场和 Telegram 收集原始日志——精选高信号数据。",
+          "phase": "采集"
+        },
+        {
+          "title": "规范化",
+          "description": "去重数据并通过多租户标签、域名和 IP 上下文进行富化。",
+          "phase": "采集"
+        },
+        {
+          "title": "关联",
+          "description": "将凭证、恶意软件路径和受感染设备连接成可操作的暴露链。",
+          "phase": "处理"
+        },
+        {
+          "title": "告警",
+          "description": "推送按租户划分的 Webhook 或邮件告警，直接映射到您的运维手册和 SOAR。",
+          "phase": "处理"
+        },
+        {
+          "title": "交付",
+          "description": "导出审计证据（JSON/CSV）并为分析师提供深度链接。",
+          "phase": "交付"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "托管安全服务",
+      "title": "用真实暴露数据",
+      "titleHighlight": "丰富每张工单",
+      "description": "提供更好的客户成果——更少的噪音、更快的响应和直接集成到您托管服务工作流程中的具体证据。",
+      "items": [
+        {
+          "title": "租户范围情报",
+          "description": "按域名、子域名、IP 和计算机名称设置关注列表。保持客户数据清晰隔离和安全。"
+        },
+        {
+          "title": "分析师就绪的上下文",
+          "description": "获取受损主机名、IP、恶意软件路径和凭证——清洁规范化以供即时案件处理。"
+        },
+        {
+          "title": "嵌入您的技术栈",
+          "description": "通过 Webhook/邮件将告警直接发送到您的 SIEM、SOAR、ITSM 或聊天工具。即时导出证据。"
+        },
+        {
+          "title": "自动化客户响应",
+          "description": "使用您已有的运维手册和工具触发重置、令牌撤销和下架处理。"
+        }
+      ]
+    }
+  },
+  "vuln": {
+    "badge": "进攻性安全",
+    "hero": {
+      "title": "加速您的",
+      "badge": "漏洞研究",
+      "titleHighlight": "侦察。",
+      "description": "全球红队和漏洞赏金猎人使用 Whiteintel 发现暴露的账户和隐藏资产，更快地将侦察转化为可操作的利用路径。",
+      "descriptionHighlight": "暴露的账户和隐藏资产",
+      "descriptionSuffix": "更快地将侦察转化为可操作的利用路径。",
+      "startScanning": "开始扫描",
+      "apiDocs": "API 文档",
+      "cta": "开始扫描",
+      "ctaSecondary": "API 文档"
+    },
+    "packaging": {
+      "title": "选择您的方案",
+      "description": "为您的漏洞研究需求选择合适的方案。",
+      "tiers": [
+        {
+          "name": "研究API",
+          "points": [
+            "通过多种标识符查询",
+            "完整JSON/CSV导出",
+            "清洁、标准化的数据"
+          ],
+          "cta": "获取API访问"
+        },
+        {
+          "name": "告警附加功能",
+          "points": [
+            "Webhook + 邮件",
+            "匹配监控列表",
+            "即时推送"
+          ],
+          "cta": "启用告警"
+        },
+        {
+          "name": "证据包",
+          "points": [
+            "截图、原始数据和元数据",
+            "适用于漏洞赏金报告",
+            "可直接交付客户"
+          ],
+          "cta": "请求证据包"
+        }
+      ]
+    },
+    "valueProps": {
+      "title": "将情报转化为",
+      "titleHighlight": "影响力。",
+      "description": "使用经过验证的暴露数据来改进发现、加速发掘并精确验证漏洞。",
+      "items": [
+        {
+          "title": "更精准的侦察",
+          "description": "超越 OSINT——从窃密日志、泄露和暗网市场获取精选暴露数据。"
+        },
+        {
+          "title": "扩展攻击面",
+          "description": "发现被遗忘的子域名、暴露的 IP 和与您目标关联的泄露凭证。"
+        },
+        {
+          "title": "权限提升",
+          "description": "识别凭证重用和令牌，在授权测试中快速提权。"
+        },
+        {
+          "title": "报告证据",
+          "description": "导出高保真证据用于漏洞报告和赏金提交。"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "工作流程",
+      "title": "研究人员如何使用",
+      "titleHighlight": "Whiteintel",
+      "description": "从暗网侦察到高影响力漏洞报告——加速发现路径。",
+      "steps": [
+        {
+          "title": "采集",
+          "description": "从窃密日志、黑客论坛、Telegram 和市场获取数据——精选进攻性信号。",
+          "phase": "侦察"
+        },
+        {
+          "title": "富化",
+          "description": "将原始数据映射到子域名、IP 和技术，以扩展目标的攻击面。",
+          "phase": "侦察"
+        },
+        {
+          "title": "关联",
+          "description": "将暴露的凭证和会话令牌链接到特定的管理面板和隐藏端点。",
+          "phase": "分析"
+        },
+        {
+          "title": "监控",
+          "description": "在域名上设置关注列表，当您的任务期间出现新泄露时即时获得告警。",
+          "phase": "分析"
+        },
+        {
+          "title": "导出",
+          "description": "下载高保真 JSON/CSV 证据以验证您的发现并支持赏金报告。",
+          "phase": "报告"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "漏洞研究",
+      "title": "用经过验证的情报",
+      "titleHighlight": "增强侦察",
+      "description": "获得对受损基础设施和凭证的更深入可见性，以支持测试、验证发现和加强安全态势。",
+      "items": [
+        {
+          "title": "定向侦察",
+          "description": "按域名、子域名、IP 或主机名搜索。使用高级查询过滤器精确匹配您的测试范围。"
+        },
+        {
+          "title": "丰富的暴露上下文",
+          "description": "获取恶意软件文件路径、受损主机名、相关 URL 和凭证，完全规范化以供研究。"
+        },
+        {
+          "title": "无缝数据导出",
+          "description": "通过 CSV/JSON 将发现导出到您的工具（Burp、Maltego），以自动化您的测试管道。"
+        },
+        {
+          "title": "实时告警",
+          "description": "当新的暗网数据匹配您监控的目标时，通过 Webhook 或邮件即时获得通知。"
+        }
+      ]
+    }
+  },
+  "lookalike": {
+    "badge": "域名情报",
+    "hero": {
+      "title": "在冒牌者上线之前发现它们。",
+      "badge": "域名情报",
+      "titlePrefix": "检测并消除",
+      "titleHighlight": "仿冒域名",
+      "description": "持续监控新注册域名，尽早捕获拼写仿冒、同形字和仿冒域名。在钓鱼威胁扩散之前阻止它们。"
+    },
+    "valueProps": {
+      "title": "守护您的",
+      "titleHighlight": "数字边界",
+      "description": "阻止攻击者利用您的品牌信任。我们监控开放网络，在您的客户受害之前发现并消除冒牌者。",
+      "items": [
+        {
+          "title": "发现拼写仿冒",
+          "description": "在 1,500 多个顶级域名中即时检测模糊匹配、同形字（IDN）和组合仿冒。"
+        },
+        {
+          "title": "预防钓鱼",
+          "description": "在恶意域名设置 MX 记录以发起邮件攻击之前识别它们。"
+        },
+        {
+          "title": "深度 WHOIS 洞察",
+          "description": "访问详细的注册数据、创建日期和注册商信息，以分析域名背后的行为者。"
+        },
+        {
+          "title": "快速下架",
+          "description": "自动生成证据包和滥用举报，更快地暂停恶意注册商。"
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "从注册到情报",
+      "description": "专为检测冒牌域名并向您的团队即时交付可操作情报而构建的自动化管道。",
+      "steps": [
+        {
+          "title": "监控",
+          "description": "全天候扫描 1,500 多个顶级域名、子域名和证书透明度日志。"
+        },
+        {
+          "title": "富化",
+          "description": "查询 DNS 记录、名称服务器和历史 WHOIS 数据以建立画像。"
+        },
+        {
+          "title": "分类",
+          "description": "分析模糊匹配和同形字，区分防御性注册和威胁。"
+        },
+        {
+          "title": "告警",
+          "description": "对于关键匹配，通过 Webhook 或邮件向您的安全运营中心推送即时通知。"
+        }
+      ]
+    },
+    "howItStops": {
+      "badge": "如何阻止仿冒",
+      "title": "在冒牌域名",
+      "titleHighlight": "攻击之前阻止它们",
+      "description": "我们的自动化管道在整个互联网上检测、分类和消除针对您品牌的仿冒域名。",
+      "stepLabel": "步骤",
+      "items": [
+        {
+          "title": "全球扫描",
+          "description": "持续监控 1,500 多个顶级域名、子域名和证书透明度日志的新注册。"
+        },
+        {
+          "title": "相似度分析",
+          "description": "使用高精度算法检测模糊匹配、同形字和组合仿冒。"
+        },
+        {
+          "title": "威胁分类",
+          "description": "使用 DNS、WHOIS 和内容分析区分防御性注册和真实威胁。"
+        },
+        {
+          "title": "即时告警",
+          "description": "当发现关键匹配时，通过 Webhook 或邮件向您的安全运营中心推送实时通知。"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "核心能力",
+      "title": "全面掌控您的",
+      "titleHighlight": "品牌攻击面",
+      "description": "从每日注册数据到详细的 WHOIS 画像，我们提供洞察以区分合法域名和恶意冒牌者。",
+      "items": [
+        {
+          "title": "每日全球扫描",
+          "description": "我们每 24 小时监控超过 150,000 个新注册域名，覆盖所有主要顶级域名，在威胁出现的瞬间捕获它们。"
+        },
+        {
+          "title": "高级相似度检测",
+          "description": "我们的算法以高精度检测模糊匹配、IDN 同形字和拼写仿冒尝试，以减少误报。"
+        },
+        {
+          "title": "深度 WHOIS 情报",
+          "description": "揭开隐私保护背后的行为者。我们自动检索和解析注册数据以识别惯犯。"
+        },
+        {
+          "title": "实时告警与 API",
+          "description": "通过邮件或 Webhook 接收即时通知，或通过我们的 REST API 将原始情报直接导入您的 SOAR。"
+        }
+      ]
+    }
+  },
+  "consumer": {
+    "badge": "用户防护",
+    "hero": {
+      "title": "将恶意软件日志转化为",
+      "badge": "用户防护",
+      "titlePrefix": "实时的",
+      "titleHighlight": "用户安全。",
+      "description": "我们从信息窃取木马感染（RedLine、Vidar）和黑客论坛获取数百万行数据。我们即时将这些泄露的凭证映射到您的实际用户，实现主动防御。"
+    },
+    "valueProps": {
+      "title": "在接管",
+      "titleHighlight": "发生之前阻止。",
+      "description": "标准安全措施在登录失败后才做出反应。我们更早行动，在用户设备被恶意软件感染的那一刻就识别受损用户。",
+      "items": [
+        {
+          "title": "获取恶意软件日志",
+          "description": "直接访问来自 RedLine、Vidar 和 Raccoon 窃密云的实时数据流。我们在数据进入公开论坛之前就捕获它们。"
+        },
+        {
+          "title": "精确用户匹配",
+          "description": "我们解析混乱的原始日志，以高保真匹配将泄露的凭证直接映射到您的客户数据库。"
+        },
+        {
+          "title": "预认证修复",
+          "description": "一旦检测到感染，立即使会话失效并强制密码重置，在黑客尝试登录之前阻止他们。"
+        },
+        {
+          "title": "自动化防御",
+          "description": "通过 API 集成，在用户受损时触发即时防御工作流程，无需人工干预。"
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "工作流程",
+      "title": "从感染到",
+      "titleHighlight": "保护",
+      "description": "在黑客登录之前阻止账户接管。我们自动化从原始恶意软件日志到用户安全的路径。",
+      "steps": [
+        {
+          "title": "日志采集",
+          "description": "我们从恶意软件 C2 服务器和「日志云」仓库（RedLine、Vidar 等）实时流式获取日志。",
+          "phase": "采集"
+        },
+        {
+          "title": "数据解析",
+          "description": "规范化原始文本文件。我们提取 URL、用户名和密码。",
+          "phase": "采集"
+        },
+        {
+          "title": "身份核验",
+          "description": "将提取的凭证与您的用户库进行交叉比对，以识别受损客户。",
+          "phase": "匹配"
+        },
+        {
+          "title": "强制重置",
+          "description": "API 立即为受影响的用户触发密码重置，使被盗凭证失效。",
+          "phase": "响应"
+        },
+        {
+          "title": "通知用户",
+          "description": "通知用户以提高网络安全意识。",
+          "phase": "响应"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "感染情报",
+      "title": "保护账户免受",
+      "titleHighlight": "受损设备威胁",
+      "description": "我们弥合恶意软件感染和您的认证系统之间的差距，阻止黑客使用被盗凭证访问您的平台。",
+      "items": [
+        {
+          "title": "获取恶意软件日志",
+          "description": "直接连接信息窃取木马命令与控制（C2）服务器。我们实时从 RedLine、Vidar 和 Raccoon 感染中拉取原始日志。"
+        },
+        {
+          "title": "映射到客户",
+          "description": "我们将原始感染数据（用户名、密码、机器 ID）与您的用户数据库进行关联，精确定位谁已受损。"
+        },
+        {
+          "title": "阻断账户接管",
+          "description": "在登录入口阻止凭证填充攻击。如果用户的凭证出现在窃密日志中，我们立即锁定账户。"
+        },
+        {
+          "title": "自动化修复",
+          "description": "在检测到威胁的瞬间通过 API 触发密码重置，无需人工干预即可保护账户。"
+        }
+      ]
+    }
+  },
+  "platform": {
+    "badge": "平台概览",
+    "title": "在攻击者行动之前",
+    "titleHighlight": "看到他们所见。",
+    "description": "持续暗网监控，将窃密日志和泄露凭证转化为可操作情报。更快地检测、优先排序和修复。",
+    "knowledgeCenter": "知识中心",
+    "viewDocs": "查看集成文档",
+    "cta": "知识中心",
+    "ctaSecondary": "查看集成文档"
+  }
+}

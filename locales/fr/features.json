@@ -1,0 +1,966 @@
+{
+  "ato": {
+    "badge": "Prevention des prises de compte",
+    "hero": {
+      "title": "Empecez les prises de compte.",
+      "description": "Surveillance proactive du dark web pour les fuites d'identifiants. Detectez les identites exposees et automatisez la reponse avant que les attaquants ne les exploitent.",
+      "cardHeader": "Identifiant compromis detecte",
+      "cardSubtext": "Alerte en temps reel • A l'instant",
+      "autoRemediate": "Remediation automatique",
+      "investigate": "Investiguer"
+    },
+    "valueProps": {
+      "title": "Stoppez les prises de compte",
+      "titleHighlight": "avant qu'elles ne commencent",
+      "description": "Whiteintel transforme les identifiants divulgues et les artefacts de stealers en actions prioritaires, donnant a votre equipe de securite une longueur d'avance.",
+      "items": [
+        {
+          "title": "Stoppez l'abus d'identifiants",
+          "description": "Detectez les noms d'utilisateur et mots de passe exposes lies a vos domaines avant qu'ils ne soient vendus."
+        },
+        {
+          "title": "Trouvez les appareils infectes",
+          "description": "Identifiez les terminaux infectes par des stealers lies aux comptes d'entreprise avec precision."
+        },
+        {
+          "title": "Bloquez les chemins d'attaque ATO",
+          "description": "Reduisez les risques de reutilisation de mots de passe et de credential stuffing grace a la cartographie automatisee des menaces."
+        },
+        {
+          "title": "Agissez rapidement avec les alertes",
+          "description": "Recevez des webhooks ou des notifications par e-mail en temps reel pour declencher des reinitalisations et des suppressions immediates."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Le processus",
+      "title": "De la detection a la neutralisation",
+      "description": "Un pipeline automatise concu pour transformer les signaux bruts du dark web en actions de securite decisives, sans latence humaine.",
+      "steps": [
+        {
+          "title": "Collecte",
+          "description": "Ingestion continue des journaux de stealers, forums de hackers, canaux Telegram et sites de paste."
+        },
+        {
+          "title": "Enrichissement",
+          "description": "Deduplication des donnees et association des identites a vos domaines specifiques et VIP."
+        },
+        {
+          "title": "Correlation",
+          "description": "Mise en relation des identifiants et des jetons pour identifier les chemins d'exposition a haut niveau de confiance."
+        },
+        {
+          "title": "Alerte",
+          "description": "Envoi immediat de webhooks ou d'e-mails en temps reel lorsque des expositions a haut risque sont validees."
+        },
+        {
+          "title": "Remediation",
+          "description": "Declenchement automatise de reinitalisations, de revocations de sessions et de suppressions via API."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Capacites",
+      "title": "Concu pour stopper les prises de compte avant qu'elles ne surviennent",
+      "description": "Nous ingerons des millions de journaux provenant d'infostealers et de forums du dark web en temps reel, vous fournissant les renseignements necessaires pour agir avant que les attaquants ne frappent.",
+      "items": [
+        {
+          "title": "Stoppez la compromission de comptes",
+          "description": "Detectez les identifiants voles lies a vos domaines et VIP avant qu'ils ne soient utilises pour des connexions non autorisees."
+        },
+        {
+          "title": "Decouvrez les sources de breches",
+          "description": "Retracez les noms d'utilisateur et mots de passe exposes jusqu'aux journaux de stealers specifiques, marches du dark web et sites de paste."
+        },
+        {
+          "title": "Identifiez les appareils infectes",
+          "description": "Reperez les terminaux infectes par des infostealers ayant accede aux actifs d'entreprise, y compris l'empreinte IP et de l'appareil."
+        },
+        {
+          "title": "Automatisez la reponse ATO",
+          "description": "Declenchez des reinitalisations de mots de passe, revoquez des sessions et envoyez des webhooks a vos playbooks SOAR instantanement."
+        }
+      ]
+    },
+    "roi": {
+      "title": "Stoppez les pertes",
+      "titleHighlight": "avant qu'elles ne surviennent",
+      "description": "Les prises de compte coutent des milliards aux entreprises en fraude, retro-facturations et restauration de l'image de marque. Prevenir un seul incident rentabilise la plateforme.",
+      "badge": "Le cout de l'inaction",
+      "stats": [
+        {
+          "value": "$4.88M",
+          "label": "Cout moyen d'une breche",
+          "sub": "Moyenne mondiale (2024)",
+          "description": "Le cout croissant des violations de donnees fait de la detection precoce une necessite financiere, pas seulement securitaire."
+        },
+        {
+          "value": "88%",
+          "label": "Breches d'applications web",
+          "description": "Les attaquants ne forcent pas l'entree ; ils se connectent avec des identifiants valides voles a des tiers."
+        },
+        {
+          "value": "22%",
+          "label": "Vecteurs d'acces initial",
+          "description": "Les identifiants voles restent le vecteur principal et le plus fiable pour les attaquants."
+        }
+      ]
+    }
+  },
+  "enterprise": {
+    "badge": "Protection entreprise",
+    "hero": {
+      "title": "Protection des identites de niveau entreprise.",
+      "description": "Protegez les identites des employes et les systemes internes. Nous analysons Telegram, les forums du dark web et les journaux de stealers en temps reel pour faire remonter les identifiants d'entreprise divulgues avant qu'ils ne soient exploites.",
+      "highlight": "Telegram, les forums du dark web et les journaux de stealers"
+    },
+    "valueProps": {
+      "title": "Securisez les identites.",
+      "titleHighlight": "Protegez les systemes.",
+      "description": "Transformez les signaux d'exposition externes en actions claires pour proteger l'acces des employes aux systemes et a l'infrastructure de l'entreprise.",
+      "items": [
+        {
+          "title": "Protegez l'acces interne",
+          "description": "Detectez les identifiants d'entreprise exposes avant qu'ils ne soient utilises pour acceder aux systemes AD/SSO, VPN ou aux applications internes."
+        },
+        {
+          "title": "Defendez les comptes privilegies",
+          "description": "Trouvez les expositions a haut risque liees aux administrateurs, comptes de service et dirigeants ; agissez vite pour reduire le rayon d'impact."
+        },
+        {
+          "title": "Securisez le personnel",
+          "description": "Associez les fuites aux employes et equipes ; notifiez, reinitalisez et sensibilisez avec un minimum de friction."
+        },
+        {
+          "title": "Reduisez les mouvements lateraux",
+          "description": "Revoquez les sessions, reinitalisez les mots de passe et supprimez les jetons pour couper la persistance des attaquants."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Le processus",
+      "title": "Comment nous protegeons l'acces des employes",
+      "description": "Des signaux externes a l'action automatisee, concu pour maintenir la securite des systemes internes contre les prises de controle.",
+      "steps": [
+        {
+          "title": "Collecte",
+          "description": "Ingestion des journaux provenant de clouds de stealers, forums, Telegram et sites de paste en continu."
+        },
+        {
+          "title": "Enrichissement",
+          "description": "Normalisation des donnees et association des identites a des domaines, utilisateurs et appareils specifiques."
+        },
+        {
+          "title": "Correlation",
+          "description": "Mise en relation des identifiants avec les employes pour identifier les chemins d'acces a haut risque."
+        },
+        {
+          "title": "Alerte",
+          "description": "Envoi d'alertes validees aux equipes de securite via Webhook ou e-mail instantanement."
+        },
+        {
+          "title": "Remediation",
+          "description": "Declenchement de reinitalisations de mots de passe, de revocations de sessions et de suppressions via API."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Protegez les identites des employes",
+      "title": "Gardez l'acces d'entreprise securise et controle",
+      "description": "Surveillez les fuites et les artefacts de stealers en temps reel. Associez les expositions aux utilisateurs et systemes, puis reagissez avec des reinitalisations et revocations adaptees a vos workflows.",
+      "items": [
+        {
+          "title": "Empecez la compromission interne",
+          "description": "Detectez les fuites d'identifiants d'entreprise liees a vos domaines, utilisateurs AD/SSO et VPN avant qu'elles ne soient exploitees."
+        },
+        {
+          "title": "Investiguez les expositions",
+          "description": "Recherchez par e-mail, nom d'utilisateur ou IP pour retracer les sources : journaux de stealers, forums et sites de paste."
+        },
+        {
+          "title": "Trouvez les terminaux a risque",
+          "description": "Identifiez les appareils lies aux connexions d'entreprise presentant une exposition aux stealers et isolez-les rapidement."
+        },
+        {
+          "title": "Automatisez la reponse",
+          "description": "Declenchez des reinitalisations de mots de passe, revoquez des sessions, notifiez les utilisateurs et envoyez des alertes dans vos workflows."
+        }
+      ]
+    }
+  },
+  "ad": {
+    "badge": "Cas d'utilisation",
+    "hero": {
+      "title": "Protegez les identites et appareils AD.",
+      "titleLine2": "Contre les menaces externes.",
+      "badge": "Protection Active Directory",
+      "description": "Detectez les noms d'hotes, IP et identifiants compromis en temps reel. Nous correlons les fuites externes avec vos utilisateurs et terminaux Active Directory pour automatiser les workflows d'isolation.",
+      "descriptionHighlight": "Active Directory",
+      "descriptionSuffix": "pour automatiser les workflows d'isolation.",
+      "highlight": "Active Directory",
+      "scannerStatus": "ANALYSE DES SOURCES EXTERNES EN COURS...",
+      "domainController": "DC01",
+      "statusActive": "ACTIF",
+      "statusSecure": "SECURISE",
+      "statusOnline": "EN LIGNE",
+      "statusInfected": "INFECTE",
+      "statusIsolated": "ISOLE",
+      "logMonitoring": "[SYS] Surveillance des objets AD...",
+      "logAlert": "[ALERTE] Correspondance d'identifiant trouvee : WS-FIN-04",
+      "logSync": "[SYS] Synchronisation avec le flux externe...",
+      "logAction": "[ACTION] Isolation de l'appareil..."
+    },
+    "valueProps": {
+      "title": "Faites d'AD la",
+      "titleHighlight": "porte la plus difficile a ouvrir.",
+      "description": "Whiteintel transforme les signaux externes en actions concretes pour maintenir la securite des identites et appareils Active Directory face aux compromissions externes.",
+      "items": [
+        {
+          "title": "Reperez les hotes compromis",
+          "description": "Identifiez les noms d'hotes et IP exposes observes dans les journaux de stealers et artefacts de breches, puis associez-les aux appareils AD."
+        },
+        {
+          "title": "Associez aux vrais utilisateurs",
+          "description": "Correlez les appareils et artefacts a des utilisateurs ou groupes AD specifiques pour une action plus rapide."
+        },
+        {
+          "title": "Protegez les applications internes",
+          "description": "Faites remonter les terminaux a risque utilises pour acceder au VPN, SSO et aux applications critiques, reduisant les mouvements lateraux."
+        },
+        {
+          "title": "Reagissez en toute confiance",
+          "description": "Lancez des reinitalisations de mots de passe, revocations de jetons, isolations d'appareils et tickets via des alertes webhook/e-mail."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Le processus",
+      "title": "Comment nous protegeons",
+      "titleHighlight": "Active Directory",
+      "description": "De l'identification des noms d'hotes compromis a la reponse decisive, en automatisant la defense de votre reseau interne.",
+      "steps": [
+        {
+          "phase": "Phase 1",
+          "title": "Collecte",
+          "description": "Ingestion des journaux de stealers, forums de hackers, places de marche et sites de paste pour les donnees de machines compromises."
+        },
+        {
+          "phase": "Phase 2",
+          "title": "Enrichissement",
+          "description": "Normalisation des donnees et ajout de contexte : noms d'hotes, adresses IP et empreintes d'appareils."
+        },
+        {
+          "phase": "Phase 3",
+          "title": "Correlation",
+          "description": "Mise en relation des artefacts d'hotes externes directement avec vos utilisateurs et terminaux Active Directory."
+        },
+        {
+          "phase": "Phase 4",
+          "title": "Alerte",
+          "description": "Webhooks ou e-mails instantanes lorsque des expositions a haut risque affectent votre environnement AD specifique."
+        },
+        {
+          "phase": "Phase 5",
+          "title": "Remediation",
+          "description": "Automatisation des reinitalisations de mots de passe, revocations de jetons et tickets d'isolation d'appareils."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Securite Active Directory",
+      "title": "Gardez Active Directory",
+      "titleHighlight": "propre et controle",
+      "description": "Detectez les noms d'hotes, IP et identifiants compromis. Correlez-les aux utilisateurs et terminaux, puis automatisez les reinitalisations, revocations et workflows d'isolation.",
+      "items": [
+        {
+          "title": "Detectez l'exposition des identifiants AD",
+          "description": "Trouvez les noms d'utilisateur et mots de passe divulgues associes aux utilisateurs AD, administrateurs et comptes de service avant qu'ils ne soient exploites."
+        },
+        {
+          "title": "Correlez hotes et IP",
+          "description": "Retracez les noms d'hotes, adresses IP et artefacts de session compromis jusqu'aux appareils via les journaux et sources de breches."
+        },
+        {
+          "title": "Faites remonter les chemins de malware",
+          "description": "Extrayez les chemins d'installation de malwares et les repertoires de butin des stealers pour identifier rapidement les terminaux infectes."
+        },
+        {
+          "title": "Automatisez la reponse AD",
+          "description": "Declenchez des reinitalisations de mots de passe, desactivez des comptes, revoquez des sessions et ouvrez des tickets via webhook ou e-mail."
+        }
+      ],
+      "visuals": {
+        "user": {
+          "leaked": "DIVULGUE"
+        },
+        "graph": {
+          "stealerLog": "Journal Stealer",
+          "matched": "CORRESPONDANCE"
+        },
+        "path": {
+          "artifactExplorer": "Explorateur d'artefacts",
+          "containsCredentials": "Contient 14 identifiants enregistres"
+        },
+        "automate": {
+          "policyViolation": "Violation de politique : identifiant expose",
+          "disableAccount": "Desactiver le compte : CORP\\Admin_Sys",
+          "workflowCompleted": "Workflow termine avec succes",
+          "now": "A l'instant"
+        }
+      }
+    }
+  },
+  "ransomware": {
+    "badge": "Defense contre les ransomwares",
+    "hero": {
+      "title": "Stoppez les ransomwares avant qu'ils ne commencent.",
+      "titleLine2": "Avant le chiffrement.",
+      "badge": "Prevention des ransomwares",
+      "description": "Interceptez les attaques au stade de l'acces initial. Nous detectons les precurseurs : identifiants VPN voles, annonces RDP et terminaux infectes, eliminant les points d'entree dont les attaquants dependent.",
+      "descriptionHighlight": "Acces initial",
+      "descriptionSuffix": "eliminant les points d'entree dont les attaquants dependent.",
+      "highlight": "Acces initial",
+      "identifyPrecursors": "Identifier les precurseurs",
+      "viewThreatReport": "Voir le rapport de menaces",
+      "ctaPrimary": "Identifier les precurseurs",
+      "ctaSecondary": "Voir le rapport de menaces",
+      "killChainMonitor": "MONITEUR DE CHAINE D'ATTAQUE",
+      "stage1Label": "Etape 1 : Acces initial",
+      "stage2Label": "Etape 2 : Chiffrement",
+      "stage3Label": "Etape 3 : Extorsion",
+      "detected": "DETECTE",
+      "prevented": "EMPECHE",
+      "blocked": "BLOQUE",
+      "vpnCredential": "Identifiant VPN vole",
+      "sourceHackerForum": "Source : Forum de hackers",
+      "ransomwarePayload": "Charge ransomware",
+      "dataLeakSite": "Site de fuite de donnees",
+      "publicExposure": "Exposition publique"
+    },
+    "valueProps": {
+      "title": "Eliminez le",
+      "titleHighlight": "point d'entree.",
+      "description": "Un ransomware ne survient pas par hasard : il commence par une compromission. Whiteintel detecte les precurseurs specifiques dont les attaquants dependent, stoppant la chaine d'attaque des la premiere etape.",
+      "items": [
+        {
+          "title": "Fermez les portes ouvertes",
+          "description": "Detectez les identifiants RDP, VPN et Citrix exposes vendus sur les marches d'Initial Access Brokers avant qu'ils ne soient exploites."
+        },
+        {
+          "title": "Reperez les signaux pre-ransomware",
+          "description": "Identifiez les infections precurseurs comme Lumma, Vidar ou d'autres familles qui precedent souvent un evenement de chiffrement complet."
+        },
+        {
+          "title": "Cartographiez la surface d'attaque",
+          "description": "Correlez les expositions externes a des actifs internes specifiques pour prioriser les vulnerabilites permettant les mouvements lateraux."
+        },
+        {
+          "title": "Coupez la connexion",
+          "description": "Revoquez instantanement les sessions compromises, reinitalisez les acces et isolez les terminaux des qu'un precurseur est detecte."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Le processus",
+      "title": "Comment nous stoppons les ransomwares",
+      "titleHighlight": "avant l'impact",
+      "description": "Nous interceptons la chaine d'attaque au stade de l'acces initial, transformant des jours d'exposition inapercue en action defensive immediate.",
+      "steps": [
+        {
+          "phase": "Phase 1",
+          "title": "Collecte",
+          "description": "Collecte des precurseurs de ransomware : journaux de stealers, annonces RDP et identifiants VPN sur les marches du dark web."
+        },
+        {
+          "phase": "Phase 2",
+          "title": "Enrichissement",
+          "description": "Deduplication des donnees et enrichissement avec la reputation IP, les empreintes d'appareils et la geolocalisation."
+        },
+        {
+          "phase": "Phase 3",
+          "title": "Correlation",
+          "description": "Mise en relation des points d'acces compromis directement avec vos plages reseau et domaines d'entreprise."
+        },
+        {
+          "phase": "Phase 4",
+          "title": "Alerte",
+          "description": "Declenchement d'alertes instantanees de haute priorite lorsqu'un Initial Access Broker met vos actifs en vente."
+        },
+        {
+          "phase": "Phase 5",
+          "title": "Blocage",
+          "description": "Automatisation des reinitalisations de mots de passe, revocations de sessions et isolation des terminaux avant la detonation."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Defense proactive",
+      "title": "Bloquez les ransomwares des leur",
+      "titleHighlight": "stade le plus precoce",
+      "description": "Whiteintel surveille les marches du dark web et les journaux de stealers pour decouvrir les identifiants compromis et les precurseurs de malware, stoppant les attaques avant que le chiffrement ne commence.",
+      "items": [
+        {
+          "title": "Bloquez l'acces initial",
+          "description": "Identifiez et revoquez les identifiants VPN, RDP et SaaS voles par des Access Brokers avant que les operateurs de ransomware ne les utilisent."
+        },
+        {
+          "title": "Decouvrez les vecteurs de breche",
+          "description": "Retracez les comptes et terminaux compromis jusqu'aux journaux d'infostealers et aux fuites du dark web."
+        },
+        {
+          "title": "Detectez les points d'ancrage malware",
+          "description": "Reperez les infections par infostealers (precurseurs) souvent utilisees pour preparer les charges ransomware, et coupez-les precocement."
+        },
+        {
+          "title": "Automatisez le confinement",
+          "description": "Alimentez les workflows SOAR, SIEM ou EDR avec des renseignements pour l'isolation automatisee, les reinitalisations de mots de passe et les alertes."
+        }
+      ],
+      "visuals": {
+        "access": {
+          "marketLabel": "Annonce sur le dark market",
+          "timeAgo": "Il y a 2h",
+          "corporateAccess": "Acces VPN d'entreprise",
+          "userInfo": "admin@target-corp.com • RDP",
+          "detected": "DETECTE",
+          "brokerIdentified": "Courtier d'acces identifie et bloque"
+        },
+        "vector": {
+          "stealerCampaign": "Campagne de stealer",
+          "compromisedUser": "Utilisateur compromis",
+          "endpoint": "Terminal cible"
+        },
+        "foothold": {
+          "stealerDetected": "STEALER DETECTE"
+        },
+        "automate": {
+          "threatSignal": "Signal de menace",
+          "action": "Action",
+          "precursorIdentified": "Precurseur identifie",
+          "isolateEndpoint": "Isoler le terminal",
+          "resetCredentials": "Reinitialiser les identifiants"
+        }
+      }
+    }
+  },
+  "darkweb": {
+    "badge": "Surveillance des mentions sur le dark web",
+    "hero": {
+      "title": "Decouvrez ce que le dark web dit",
+      "titleLine2": "Votre nom a travers le",
+      "badge": "Surveillance du dark web",
+      "titleHighlight": "sur vous.",
+      "description": "Allez au-dela des identifiants. Nous surveillons proactivement les reseaux caches pour les discussions ciblant votre marque, les details produits divulgues et les menaces envers les dirigeants. Sachez quand vous etes le sujet de conversation dans le monde souterrain.",
+      "monitorStatus": "SURVEILLANCE DES FILS ACTIFS EN COURS..."
+    },
+    "valueProps": {
+      "title": "Protegez votre marque.",
+      "titleHighlight": "Detectez les menaces tot.",
+      "description": "Passez de la reponse reactive aux incidents au renseignement proactif. Nous filtrons le bruit du dark web pour trouver les signaux qui comptent pour votre entreprise.",
+      "items": [
+        {
+          "title": "Defendez la reputation de votre marque",
+          "description": "Detectez les campagnes d'arnaque, domaines de phishing et la desinformation emergente dans les fils souterrains avant qu'ils ne deviennent publics."
+        },
+        {
+          "title": "Securisez la propriete intellectuelle",
+          "description": "Reperez le code source divulgue, les schemas proprietaires ou les details produits non publies apparaissant sur les places de marche."
+        },
+        {
+          "title": "Protegez les VIP et dirigeants",
+          "description": "Surveillez les tentatives de doxxing, menaces physiques ou campagnes de harcelement ciblees contre votre equipe dirigeante."
+        },
+        {
+          "title": "Renseignement pre-attaque",
+          "description": "Identifiez les acteurs malveillants recherchant activement des acces a votre pile technologique ou secteur d'activite specifique."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Le processus",
+      "title": "Du bavardage a la",
+      "titleHighlight": "defense",
+      "description": "Transformez les discussions souterraines en actions defensives. Nous filtrons des millions de points de donnees pour trouver les menaces qui comptent vraiment.",
+      "steps": [
+        {
+          "title": "Surveillance mondiale",
+          "description": "Exploration 24h/24 et 7j/7 des forums de hackers (XSS, Exploit), groupes Telegram sur invitation et places de marche IAB.",
+          "phase": "Collecte"
+        },
+        {
+          "title": "Detection des menaces",
+          "description": "Identification des mentions de votre marque, ventes d'acces initiaux ou codes d'exploitation specifiques ciblant votre pile technologique.",
+          "phase": "Collecte"
+        },
+        {
+          "title": "Contextualisation",
+          "description": "L'IA filtre le bruit et verifie la credibilite des acteurs (ex. : distinguer les vrais courtiers d'acces des arnaqueurs).",
+          "phase": "Analyse"
+        },
+        {
+          "title": "Alerte rapide",
+          "description": "Notifications de haute fidelite envoyees immediatement lorsqu'une menace credible ou une vente d'acces est validee.",
+          "phase": "Action"
+        },
+        {
+          "title": "Defense proactive",
+          "description": "Utilisez les renseignements pour corriger les vulnerabilites, reinitaliser les identifiants compromis ou bloquer les vecteurs d'attaque.",
+          "phase": "Action"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Renseignement du dark web",
+      "title": "Detectez les menaces",
+      "titleHighlight": "avant qu'elles ne remontent en surface",
+      "description": "Nous surveillons en continu des milliers de forums de hackers, places de marche et sites de fuites pour intercepter les ventes d'acces initiaux, le partage d'exploits et les mentions de marque.",
+      "items": [
+        {
+          "title": "Surveillez les forums de hackers",
+          "description": "Analysez des milliers de forums du dark web et groupes Telegram pour les mentions de marque, la planification d'attaques et le ciblage hacktiviste."
+        },
+        {
+          "title": "Detectez les ventes d'acces initial",
+          "description": "Reperez les Initial Access Brokers (IAB) vendant des acces VPN, RDP ou Citrix a votre reseau avant que les gangs de ransomware ne les achetent."
+        },
+        {
+          "title": "Suivez les marches de donnees et d'exploits",
+          "description": "Identifiez les annonces concernant vos bases de donnees d'entreprise, code source ou exploits specifiques ciblant votre pile technologique."
+        },
+        {
+          "title": "Alertes de menaces en temps reel",
+          "description": "Recevez des renseignements immediats lorsque votre marque est mentionnee sur des sites de fuites, blogs de ransomware ou discussions sur des exploits."
+        }
+      ]
+    }
+  },
+  "mssp": {
+    "badge": "Cas d'utilisation partenaire",
+    "hero": {
+      "title": "Renforcez votre MSSP avec le",
+      "titleLine2": "Renseignement du dark web pour",
+      "badge": "Partenaire MSSP",
+      "titleHighlight": "renseignement du dark web.",
+      "description": "Des equipes MSSP du monde entier font confiance a Whiteintel pour alimenter leurs workflows d'exposition. Livre avec un cadrage multi-tenant, un enrichissement propre et des alertes en temps reel pour chaque client que vous protegez.",
+      "descriptionPrefix": "Des equipes MSSP du monde entier font confiance a Whiteintel pour alimenter leurs workflows d'exposition. Livre avec ",
+      "descriptionHighlight": "un cadrage multi-tenant, un enrichissement propre et des alertes en temps reel",
+      "descriptionSuffix": " pour chaque client que vous protegez.",
+      "partnerWithUs": "Devenez partenaire",
+      "apiDocumentation": "Documentation API",
+      "ctaPrimary": "Devenez partenaire",
+      "ctaSecondary": "Documentation API"
+    },
+    "valueProps": {
+      "title": "Enrichissez votre service.",
+      "titleHighlight": "Reduisez le bruit.",
+      "description": "Ajoutez des signaux concrets d'exposition externe a votre offre geree avec un minimum de charge et une fidelite maximale.",
+      "items": [
+        {
+          "title": "Multi-tenant par conception",
+          "description": "Cadrez les expositions par tenant client avec des domaines, e-mails et labels. Separation claire pour le reporting et les SLA."
+        },
+        {
+          "title": "Signaux compatibles EASM",
+          "description": "Injectez des resultats dark web curates dans vos vues ASM/EASM pour montrer les veritables chemins d'exposition et actifs compromis."
+        },
+        {
+          "title": "Alertes en temps reel",
+          "description": "Livraison par webhook et e-mail pour un ticketing rapide, des reinitalisations et des suppressions, sans plomberie supplementaire."
+        },
+        {
+          "title": "Signal eleve, bruit faible",
+          "description": "Nous filtrons et correlons pour que vos analystes consacrent leur temps a reagir, pas a trier des faux positifs."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Le processus",
+      "title": "Comment nous alimentons",
+      "titleHighlight": "les MSSP et l'EASM",
+      "description": "Des signaux externes bruts a l'enrichissement, aux alertes et aux preuves prets pour le client, automatises pour monter en charge.",
+      "steps": [
+        {
+          "title": "Collecte",
+          "description": "Collecte des journaux bruts provenant de stealers, forums, marches et Telegram, curates pour un signal eleve.",
+          "phase": "Ingestion"
+        },
+        {
+          "title": "Normalisation",
+          "description": "Deduplication des donnees et enrichissement avec des labels multi-tenant, domaines et contexte IP.",
+          "phase": "Ingestion"
+        },
+        {
+          "title": "Correlation",
+          "description": "Mise en relation des identifiants, chemins de malware et appareils infectes en chaines d'exposition actionnables.",
+          "phase": "Traitement"
+        },
+        {
+          "title": "Alerte",
+          "description": "Envoi d'alertes par webhook ou e-mail par tenant, associees directement a vos runbooks et SOAR.",
+          "phase": "Traitement"
+        },
+        {
+          "title": "Livraison",
+          "description": "Export de preuves pour audit (JSON/CSV) et liens d'analyse approfondie pour les analystes.",
+          "phase": "Livraison"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Services de securite geres",
+      "title": "Enrichissez chaque ticket avec",
+      "titleHighlight": "des donnees d'exposition reelles",
+      "description": "Offrez de meilleurs resultats clients : moins de bruit, une reponse plus rapide et des preuves concretes integrees directement dans votre workflow de service gere.",
+      "items": [
+        {
+          "title": "Renseignement cadre par tenant",
+          "description": "Listes de surveillance par domaine, sous-domaine, IP et nom de machine. Gardez les donnees clients clairement separees et securisees."
+        },
+        {
+          "title": "Contexte pret pour l'analyste",
+          "description": "Obtenez les noms d'hotes compromis, IP, chemins de malware et identifiants, proprement normalises pour un traitement immediat."
+        },
+        {
+          "title": "Integrez dans votre pile",
+          "description": "Envoyez des alertes via webhook/e-mail directement dans votre SIEM, SOAR, ITSM ou outils de messagerie. Exportez les preuves instantanement."
+        },
+        {
+          "title": "Automatisez la reponse client",
+          "description": "Declenchez des reinitalisations, revocations de jetons et suppressions en utilisant les runbooks et outils que vous utilisez deja."
+        }
+      ]
+    }
+  },
+  "vuln": {
+    "badge": "Securite offensive",
+    "hero": {
+      "title": "Accelerez votre",
+      "badge": "Recherche de vulnerabilites",
+      "titleHighlight": "reconnaissance.",
+      "description": "Des red teamers et chasseurs de primes du monde entier utilisent Whiteintel pour faire remonter les comptes exposes et les actifs caches, transformant la reconnaissance en chemins d'exploitation actionnables plus rapidement.",
+      "descriptionHighlight": "les comptes exposes et les actifs caches",
+      "descriptionSuffix": "transformant la reconnaissance en chemins d'exploitation actionnables plus rapidement.",
+      "startScanning": "Lancer l'analyse",
+      "apiDocs": "Documentation API",
+      "cta": "Lancer l'analyse",
+      "ctaSecondary": "Documentation API"
+    },
+    "packaging": {
+      "title": "Choisissez votre formule",
+      "description": "Selectionnez la formule adaptee a vos besoins de recherche de vulnerabilites.",
+      "tiers": [
+        {
+          "name": "API Recherche",
+          "points": [
+            "Requetes par identifiants multiples",
+            "Export JSON/CSV complet",
+            "Donnees propres et normalisees"
+          ],
+          "cta": "Obtenir un acces API"
+        },
+        {
+          "name": "Module Alertes",
+          "points": [
+            "Webhook + Email",
+            "Correspondance avec les listes de surveillance",
+            "Livraison instantanee"
+          ],
+          "cta": "Activer les alertes"
+        },
+        {
+          "name": "Pack Preuves",
+          "points": [
+            "Captures, donnees brutes et metadonnees",
+            "Ideal pour les rapports de bug bounty",
+            "Pret pour la livraison client"
+          ],
+          "cta": "Demander le pack"
+        }
+      ]
+    },
+    "valueProps": {
+      "title": "Transformez le renseignement en",
+      "titleHighlight": "impact.",
+      "description": "Utilisez des donnees d'exposition verifiees pour ameliorer vos decouvertes, accelerer la detection et valider les vulnerabilites avec precision.",
+      "items": [
+        {
+          "title": "Reconnaissance affutee",
+          "description": "Allez au-dela de l'OSINT : obtenez des donnees d'exposition curates provenant de journaux de stealers, breches et marches du dark web."
+        },
+        {
+          "title": "Elargissez la surface d'attaque",
+          "description": "Decouvrez les sous-domaines oublies, IP exposees et identifiants divulgues lies a vos cibles."
+        },
+        {
+          "title": "Levier de privileges",
+          "description": "Identifiez la reutilisation d'identifiants et les jetons pour escalader rapidement lors de tests autorises."
+        },
+        {
+          "title": "Preuves pour les rapports",
+          "description": "Exportez des preuves de haute fidelite pour la redaction de vulnerabilites et les soumissions de primes."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Le processus",
+      "title": "Comment les chercheurs utilisent",
+      "titleHighlight": "Whiteintel",
+      "description": "De la reconnaissance sur le dark web aux rapports de vulnerabilites a fort impact, en accelerant le processus de decouverte.",
+      "steps": [
+        {
+          "title": "Collecte",
+          "description": "Ingestion des donnees provenant de journaux de stealers, forums de hackers, Telegram et marches, curates pour le signal offensif.",
+          "phase": "Recon"
+        },
+        {
+          "title": "Enrichissement",
+          "description": "Association des donnees brutes aux sous-domaines, IP et technologies pour elargir la surface d'attaque de votre cible.",
+          "phase": "Recon"
+        },
+        {
+          "title": "Correlation",
+          "description": "Mise en relation des identifiants exposes et jetons de session avec des panneaux d'administration specifiques et des points d'acces caches.",
+          "phase": "Analyse"
+        },
+        {
+          "title": "Surveillance",
+          "description": "Configuration de listes de surveillance sur les domaines pour recevoir des alertes instantanees lorsque de nouvelles fuites apparaissent pendant votre engagement.",
+          "phase": "Analyse"
+        },
+        {
+          "title": "Export",
+          "description": "Telechargement de preuves de haute fidelite en JSON/CSV pour valider vos decouvertes et soutenir votre rapport de prime.",
+          "phase": "Rapport"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Recherche de vulnerabilites",
+      "title": "Ameliorez la reconnaissance avec",
+      "titleHighlight": "du renseignement verifie",
+      "description": "Obtenez une visibilite approfondie sur les infrastructures et identifiants compromis pour soutenir les tests, valider les decouvertes et renforcer la posture de securite.",
+      "items": [
+        {
+          "title": "Reconnaissance ciblee",
+          "description": "Recherchez par domaine, sous-domaine, IP ou nom d'hote. Ciblez precisement votre perimetre de test avec des filtres de requete avances."
+        },
+        {
+          "title": "Contexte d'exposition riche",
+          "description": "Obtenez les chemins de fichiers malware, noms d'hotes compromis, URL associees et identifiants entierement normalises pour la recherche."
+        },
+        {
+          "title": "Export de donnees transparent",
+          "description": "Exportez les resultats dans vos propres outils (Burp, Maltego) via CSV/JSON pour automatiser votre pipeline de test."
+        },
+        {
+          "title": "Alertes en temps reel",
+          "description": "Soyez notifie instantanement par webhook ou e-mail lorsque de nouvelles donnees du dark web correspondent a vos cibles surveillees."
+        }
+      ]
+    }
+  },
+  "lookalike": {
+    "badge": "Renseignement sur les domaines",
+    "hero": {
+      "title": "Reperez les imposteurs avant qu'ils ne soient en ligne.",
+      "badge": "Renseignement sur les domaines",
+      "titlePrefix": "Detecter et neutraliser",
+      "titleHighlight": "les domaines similaires",
+      "description": "Surveillez en continu les domaines nouvellement enregistres pour intercepter le typosquattage, les homoglyphes et les domaines similaires precocement. Stoppez les menaces de phishing avant qu'elles ne se propagent."
+    },
+    "valueProps": {
+      "title": "Defendez votre",
+      "titleHighlight": "frontiere numerique",
+      "description": "Empecez les attaquants d'exploiter la confiance envers votre marque. Nous surveillons le web ouvert pour trouver et neutraliser les usurpateurs avant que vos clients ne soient victimises.",
+      "items": [
+        {
+          "title": "Detectez le typosquattage",
+          "description": "Detectez les correspondances floues, homoglyphes (IDN) et le combo-squattage sur plus de 1 500 TLD instantanement."
+        },
+        {
+          "title": "Anticipez le phishing",
+          "description": "Identifiez les domaines malveillants configurant des enregistrements MX pour lancer des attaques par e-mail avant qu'ils ne soient actifs."
+        },
+        {
+          "title": "Analyses WHOIS approfondies",
+          "description": "Accedez aux donnees d'enregistrement detaillees, dates de creation et informations du registrar pour profiler l'acteur derriere le domaine."
+        },
+        {
+          "title": "Suppressions rapides",
+          "description": "Generez automatiquement des dossiers de preuves et des rapports d'abus pour suspendre les registrars malveillants plus rapidement."
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "De l'enregistrement au renseignement",
+      "description": "Un pipeline automatise concu pour detecter les domaines imposteurs et fournir des renseignements actionnables a votre equipe instantanement.",
+      "steps": [
+        {
+          "title": "Surveillance",
+          "description": "Analyse de plus de 1 500 TLD, sous-domaines et journaux Certificate Transparency 24h/24 et 7j/7."
+        },
+        {
+          "title": "Enrichissement",
+          "description": "Interrogation des enregistrements DNS, serveurs de noms et donnees WHOIS historiques pour construire un profil."
+        },
+        {
+          "title": "Classification",
+          "description": "Analyse des correspondances floues et homoglyphes pour distinguer les enregistrements defensifs des menaces."
+        },
+        {
+          "title": "Alerte",
+          "description": "Envoi de notifications instantanees a votre SOC via Webhook ou e-mail pour les correspondances critiques."
+        }
+      ]
+    },
+    "howItStops": {
+      "badge": "Comment nous stoppons l'usurpation",
+      "title": "Stoppez les domaines imposteurs",
+      "titleHighlight": "avant qu'ils ne frappent",
+      "description": "Notre pipeline automatise detecte, classe et neutralise les domaines similaires ciblant votre marque sur l'ensemble d'Internet.",
+      "stepLabel": "Etape",
+      "items": [
+        {
+          "title": "Analyse mondiale",
+          "description": "Surveillance continue de plus de 1 500 TLD, sous-domaines et journaux Certificate Transparency pour les nouvelles inscriptions."
+        },
+        {
+          "title": "Analyse de similarite",
+          "description": "Detection des correspondances floues, homoglyphes et combo-squattage avec des algorithmes de haute precision."
+        },
+        {
+          "title": "Classification des menaces",
+          "description": "Distinction entre les enregistrements defensifs et les menaces reelles a l'aide de l'analyse DNS, WHOIS et de contenu."
+        },
+        {
+          "title": "Alerte instantanee",
+          "description": "Envoi de notifications en temps reel a votre SOC via Webhook ou e-mail lorsque des correspondances critiques sont trouvees."
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Capacites principales",
+      "title": "Visibilite complete sur la",
+      "titleHighlight": "surface de votre marque",
+      "description": "Des flux d'enregistrement quotidiens au profilage WHOIS detaille, nous fournissons les informations pour distinguer les domaines legitimes des imposteurs malveillants.",
+      "items": [
+        {
+          "title": "Analyse mondiale quotidienne",
+          "description": "Nous surveillons plus de 150 000 domaines nouvellement enregistres toutes les 24 heures sur tous les principaux TLD pour intercepter les menaces des leur apparition."
+        },
+        {
+          "title": "Detection de similarite avancee",
+          "description": "Nos algorithmes detectent les correspondances floues, homoglyphes IDN et tentatives de typosquattage avec une grande precision pour reduire les faux positifs."
+        },
+        {
+          "title": "Renseignement WHOIS approfondi",
+          "description": "Devoilez les acteurs derriere la protection de confidentialite. Nous recuperons et analysons automatiquement les donnees d'enregistrement pour identifier les recidivistes."
+        },
+        {
+          "title": "Alertes en temps reel & API",
+          "description": "Recevez des notifications instantanees par e-mail ou Webhook, ou ingerez le renseignement brut directement dans votre SOAR via notre API REST."
+        }
+      ]
+    }
+  },
+  "consumer": {
+    "badge": "Protection des consommateurs",
+    "hero": {
+      "title": "Transformez les journaux de malware en",
+      "badge": "Protection des consommateurs",
+      "titlePrefix": "En temps reel",
+      "titleHighlight": "securite pour les consommateurs.",
+      "description": "Nous ingerons des millions de lignes de donnees provenant d'infections par InfoStealer (RedLine, Vidar) et de forums de hackers. Nous associons instantanement ces identifiants compromis a vos utilisateurs reels, permettant une defense proactive."
+    },
+    "valueProps": {
+      "title": "Stoppez les prises de compte",
+      "titleHighlight": "avant qu'elles ne commencent.",
+      "description": "La securite standard reagit aux tentatives de connexion echouees. Nous agissons en amont, en identifiant les utilisateurs compromis des l'instant ou leur appareil est infecte par un malware.",
+      "items": [
+        {
+          "title": "Ingerez les journaux de malware",
+          "description": "Acces direct aux flux temps reel de RedLine, Vidar et Raccoon. Nous captons les donnees avant qu'elles n'atteignent les forums publics."
+        },
+        {
+          "title": "Correspondance precise des utilisateurs",
+          "description": "Nous analysons les journaux bruts et associons les identifiants compromis directement a votre base de donnees clients avec une correspondance de haute fidelite."
+        },
+        {
+          "title": "Remediation pre-authentification",
+          "description": "Invalidez les sessions et forcez la reinitalisation des mots de passe des qu'une infection est detectee, stoppant les hackers avant meme qu'ils ne tentent de se connecter."
+        },
+        {
+          "title": "Defense automatisee",
+          "description": "Integrez via API pour declencher des workflows defensifs instantanes sans intervention manuelle chaque fois qu'un utilisateur est compromis."
+        }
+      ]
+    },
+    "howItWorks": {
+      "badge": "Le processus",
+      "title": "De l'infection a la",
+      "titleHighlight": "protection",
+      "description": "Stoppez les prises de compte avant meme que le hacker ne se connecte. Nous automatisons le chemin du journal de malware brut a la securite de l'utilisateur.",
+      "steps": [
+        {
+          "title": "Collecte des journaux",
+          "description": "Nous diffusons en direct les journaux des serveurs C2 de malware et des depots « cloud of logs » (RedLine, Vidar, etc.).",
+          "phase": "Ingestion"
+        },
+        {
+          "title": "Analyse des donnees",
+          "description": "Les fichiers texte bruts sont normalises. Nous extrayons les URL, noms d'utilisateur et mots de passe.",
+          "phase": "Ingestion"
+        },
+        {
+          "title": "Verification d'identite",
+          "description": "Les identifiants extraits sont croises avec votre base d'utilisateurs pour identifier les clients compromis.",
+          "phase": "Correspondance"
+        },
+        {
+          "title": "Reinitalisation forcee",
+          "description": "L'API declenche une reinitalisation immediate du mot de passe de l'utilisateur affecte, invalidant les identifiants voles.",
+          "phase": "Reponse"
+        },
+        {
+          "title": "Avertir l'utilisateur",
+          "description": "Notifiez l'utilisateur pour la sensibilisation a la cybersecurite.",
+          "phase": "Reponse"
+        }
+      ]
+    },
+    "capabilities": {
+      "badge": "Renseignement sur les infections",
+      "title": "Securisez les comptes des",
+      "titleHighlight": "appareils compromis",
+      "description": "Nous comblons le fosse entre les infections par malware et votre systeme d'authentification, empechant les hackers d'utiliser des identifiants voles pour acceder a votre plateforme.",
+      "items": [
+        {
+          "title": "Ingerez les journaux de malware",
+          "description": "Connectez-vous directement aux serveurs de commande et controle (C2) des info-stealers. Nous recuperons les journaux bruts des infections RedLine, Vidar et Raccoon en temps reel."
+        },
+        {
+          "title": "Associez aux clients",
+          "description": "Nous correlons les donnees brutes d'infection (noms d'utilisateur, mots de passe, identifiants machine) avec votre base de donnees utilisateurs pour identifier precisement qui est compromis."
+        },
+        {
+          "title": "Bloquez la prise de compte",
+          "description": "Stoppez les attaques par credential stuffing a la porte de connexion. Si les identifiants d'un utilisateur apparaissent dans un journal de stealer, nous verrouillons le compte instantanement."
+        },
+        {
+          "title": "Automatisez la remediation",
+          "description": "Declenchez une reinitalisation de mot de passe via API des qu'une menace est detectee, securisant le compte sans intervention manuelle."
+        }
+      ]
+    }
+  },
+  "platform": {
+    "badge": "Vue d'ensemble de la plateforme",
+    "title": "Voyez ce que voient les attaquants",
+    "titleHighlight": "avant qu'ils ne frappent.",
+    "description": "Surveillance continue du dark web qui transforme les journaux de stealers et les identifiants divulgues en renseignements actionnables. Detectez, priorisez et remediez plus rapidement.",
+    "knowledgeCenter": "Centre de connaissances",
+    "viewDocs": "Voir la documentation d'integration",
+    "cta": "Centre de connaissances",
+    "ctaSecondary": "Voir la documentation d'integration"
+  }
+}

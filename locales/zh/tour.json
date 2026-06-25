@@ -1,0 +1,11 @@
+{
+  "seo": {
+    "title": "Whiteintel - 平台导览",
+    "description": "Whiteintel 暗网监控服务，用于检测信息窃取木马感染和泄露的凭证。"
+  },
+  "badge": "交互式导览",
+  "title": "查看 Whiteintel",
+  "titleHighlight": "实际运行效果。",
+  "description": "了解我们如何检测窃密木马感染、泄露的凭证和受感染的 IP。按照下方的引导导览，查看安全团队每天使用的工作流程。",
+  "cta": "从下方开始导览"
+}

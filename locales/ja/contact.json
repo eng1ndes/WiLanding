@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "お問い合わせ | Whiteintel",
+    "description": "Whiteintelチームへのお問い合わせ。エンタープライズに関するご相談、パートナーシップ、脅威インテリジェンスプラットフォームのデモのご予約はこちらから。"
+  },
+  "heading": "あなたの",
+  "headingHighlight": "デジタルフットプリントを守りましょう。",
+  "description1": "Whiteintelはダークウェブ検索エンジンとして稼働し、情報窃取マルウェア感染、漏洩した認証情報、露出した企業資産を検知します。",
+  "description2": "エンタープライズ、MSSP、リサーチャー、メディア関係者を問わず、Whiteintelがお客様の業務をどのように支援できるか、ぜひご相談ください。",
+  "emailUs": "メールでのお問い合わせ",
+  "emailUsDesc": "一般的なお問い合わせとサポート。",
+  "followUpdates": "最新情報をフォロー",
+  "followUpdatesDesc": "最新のインサイトと脅威調査。",
+  "headquarters": "本社",
+  "registeredEntity": "登記法人",
+  "locationCity": "トルコ、アンカラ",
+  "form": {
+    "getInTouch": "お問い合わせ",
+    "formSubtitle": "以下のフォームにご記入ください。担当チームが折り返しご連絡いたします。",
+    "firstName": "名",
+    "lastName": "姓",
+    "company": "会社名",
+    "email": "メールアドレス",
+    "message": "メッセージ",
+    "messagePlaceholder": "どのようなご用件でしょうか？",
+    "sendMessage": "メッセージを送信",
+    "errorGeneric": "エラーが発生しました。再度お試しいただくか、メールでお問い合わせください。",
+    "captchaFailed": "キャプチャ認証に失敗しました。以下の認証を完了してから再度お試しください。",
+    "successTitle": "送信完了！",
+    "successMessage": "お問い合わせいただきありがとうございます。担当チームがメッセージを確認し、24時間以内にご返信いたします。",
+    "successButton": "閉じる"
+  }
+}
